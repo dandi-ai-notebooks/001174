@@ -1,0 +1,180 @@
+{
+    "scores": [
+        {
+            "name": "describe-dandiset",
+            "version": 1,
+            "score": 7.0,
+            "reps": [
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook provides a solid introduction to Dandiset 001174, including its title \"Calcium imaging in SMA and M1 of macaques\", and describes that it contains calcium imaging data from SMA and M1 in four rhesus macaques using miniature microscopes to study activity patterns of projection neurons. It includes the full citation and DANDI archive link. The notebook then demonstrates the data structure by exploring the assets and their organization, showing the different subjects (Q, U, V, F) and sessions. However, it could provide more details about the experimental design, data organization principles, and complete metadata fields to achieve a higher score.",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook provides a clear description of Dandiset 001174 in its introduction. It identifies that this is calcium imaging data from SMA and M1 in four rhesus macaques using miniature microscopes to study projection neurons. The introduction includes the Dandiset ID, links to both DANDI archive and the corresponding publication, and names the authors. The notebook then demonstrates the contents by listing all assets and their organization, showing multiple NWB files across different subjects. However, it doesn't provide detailed information about the experimental conditions, data collection protocols, or comprehensive metadata structure. While the basic purpose and contents are well described, some deeper organizational and methodological details are missing.",
+                    "repnum": 1
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook provides a good introduction to Dandiset 001174, including the title \"Calcium imaging in SMA and M1 of macaques\", its purpose (study of activity patterns of projection neurons), and specifies that data was collected from four rhesus macaques using miniature microscopes. It includes the link to the DANDI archive and full citation. The markdown cells also describe what kind of data is included (calcium imaging data from SMA and M1), and the code demonstrates the data structure through asset listing and file exploration. However, it doesn't provide a complete description of the data organization across all subjects/sessions or explain all metadata fields available.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset",
+            "version": 1,
+            "score": 8.0,
+            "reps": [
+                {
+                    "score": 8.0,
+                    "thinking": "The notebook shows successful loading of the Dandiset using DandiAPIClient and demonstrates multiple aspects of metadata exploration:\n    1. Loads the Dandiset ID (001174) correctly\n    2. Lists all assets in the Dandiset with their complete metadata including file paths, sizes, creation dates, etc.\n    3. Opens and explores an NWB file showing session description, identifier, and start time\n    4. Examines data structures like OnePhotonSeries and RoiResponseSeries with their metadata\n    5. Visual exploration of the data is also shown\n    However, it doesn't provide detailed descriptions of all metadata fields or explore the complete set of available metadata, which would be needed for a perfect score.",
+                    "repnum": 0
+                },
+                {
+                    "score": 8.0,
+                    "thinking": "The notebook shows successful loading of the Dandiset (ID 001174) using the DandiAPIClient and demonstrates multiple aspects of metadata exploration. It lists all assets in the Dandiset with their detailed information including paths, sizes, creation dates, and modification dates. The notebook then loads a specific NWB file and explores various metadata fields including session_description, identifier, and session_start_time. The code executes successfully and includes explanations in markdown cells. However, it doesn't exhaustively explore all possible metadata fields or provide detailed descriptions of each field's meaning and purpose.",
+                    "repnum": 1
+                },
+                {
+                    "score": 8.0,
+                    "thinking": "The notebook successfully loads the Dandiset and demonstrates good metadata exploration: 1) Uses DandiAPIClient to load Dandiset 001174, 2) Lists all assets in the Dandiset, 3) Loads an example NWB file and explores key metadata fields like session_description, identifier, and session_start_time, 4) Shows how to access and visualize data structures like OnePhotonSeries and RoiResponseSeries. However, it doesn't provide comprehensive descriptions of all metadata fields or show all possible ways to explore the Dandiset metadata.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-dandiset-assets",
+            "version": 1,
+            "score": 7.333333333333333,
+            "reps": [
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook demonstrates several levels of asset handling: 1) Lists all assets in the Dandiset using DandiAPIClient, showing paths, sizes, and identifiers 2) Successfully loads a specific NWB file asset using lindi 3) Accesses metadata from the loaded asset through nwb object attributes 4) Shows how to access and visualize data within the asset like OnePhotonSeries and RoiResponseSeries. However, it does not explore multiple asset types or provide a comprehensive exploration of asset metadata beyond basic fields. The focus is mainly on working with a single NWB file example.",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook demonstrates good asset handling capabilities. It successfully lists all available assets in the Dandiset using DandiAPIClient (shown in assets list output). It then loads a specific NWB file asset using lindi and pynwb libraries, accessing its contents and metadata (session description, identifier, start time). The notebook also shows how to work with specific data within the asset (OnePhotonSeries, RoiResponseSeries). However, it doesn't explore multiple asset types or provide comprehensive metadata exploration across different assets. The focus is mainly on working with one example NWB file.",
+                    "repnum": 1
+                },
+                {
+                    "score": 8.0,
+                    "thinking": "The notebook demonstrates strong asset handling capabilities:\n    - Successfully connects to DANDI API and lists all assets in the dataset\n    - Shows detailed asset information including paths, sizes, timestamps\n    - Successfully loads a specific NWB file using lindi\n    - Demonstrates how to access metadata from the loaded asset\n    - Shows practical usage of the loaded data through visualization\n    However, it doesn't show loading multiple different asset types or provide a comprehensive exploration of all available metadata fields.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb",
+            "version": 1,
+            "score": 8.0,
+            "reps": [
+                {
+                    "score": 8.0,
+                    "thinking": "The notebook demonstrates strong NWB file handling and exploration:\n    - Successfully loads NWB file using lindi and pynwb\n    - Shows basic metadata (session description, identifier, start time)\n    - Accesses key data structures (OnePhotonSeries, RoiResponseSeries)\n    - Explores imaging data through PlaneSegmentation\n    - Demonstrates data visualization of multiple components\n    - Shows hierarchical navigation (acquisition, processing/ophys paths)\n    - Provides clear examples of accessing both metadata and actual data arrays\n    However, it doesn't fully explore all possible NWB components or provide a complete structural overview.",
+                    "repnum": 0
+                },
+                {
+                    "score": 8.0,
+                    "thinking": "The notebook demonstrates strong NWB file handling:\n    - Successfully loads NWB file using lindi and pynwb\n    - Shows basic metadata (session description, identifier, start time)\n    - Accesses key data structures (OnePhotonSeries, RoiResponseSeries)\n    - Explores image segmentation data and fluorescence responses\n    - Demonstrates visualization of multiple NWB components\n    - Clear navigation through NWB hierarchy (acquisition, processing)\n    However, it doesn't fully explore all available NWB components or provide a complete overview of the file structure.",
+                    "repnum": 1
+                },
+                {
+                    "score": 8.0,
+                    "thinking": "The notebook demonstrates strong NWB file handling capabilities: 1) Successfully loads an NWB file using lindi and pynwb, 2) Shows basic metadata access (session_description, identifier, session_start_time), 3) Demonstrates access to key data structures like OnePhotonSeries and RoiResponseSeries, 4) Shows how to navigate the NWB hierarchy (e.g., accessing processing/ophys/Fluorescence/RoiResponseSeries), 5) Includes visualization of data components (image masks and fluorescence traces), and 6) Shows understanding of the data structure through proper accessing of nested components. However, it doesn't provide a completely comprehensive exploration of all possible NWB components or demonstrate more advanced NWB features.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "load-nwb-data",
+            "version": 1,
+            "score": 8.0,
+            "reps": [
+                {
+                    "score": 8.0,
+                    "thinking": "The notebook demonstrates strong capabilities in loading and handling NWB data. It shows:\n    1. Proper loading of NWB file using lindi and pynwb\n    2. Accessing basic metadata (session_description, identifier, session_start_time)\n    3. Loading specific data types (OnePhotonSeries, RoiResponseSeries)\n    4. Accessing complex data structures (PlaneSegmentation, image_masks)\n    5. Handling different data types (imaging data, fluorescence data)\n    6. Visualizing the loaded data appropriately\n    However, it doesn't demonstrate advanced data access techniques or comprehensive handling of all possible data types in the dataset.",
+                    "repnum": 0
+                },
+                {
+                    "score": 8.0,
+                    "thinking": "The notebook demonstrates excellent data loading capabilities from NWB files. It successfully:\n    1. Uses lindi and pynwb to load remote NWB files\n    2. Accesses basic metadata (session_description, identifier, start_time)\n    3. Shows how to access specialized data types (OnePhotonSeries)\n    4. Demonstrates loading ROI data and image masks\n    5. Handles different data structures (time series, image data)\n    6. Shows how to navigate nested data structures (processing/ophys/Fluorescence)\n    7. Properly loads and visualizes both numerical and image data\n    However, it doesn't cover advanced data access techniques or show handling of all possible data types in the dataset.",
+                    "repnum": 1
+                },
+                {
+                    "score": 8.0,
+                    "thinking": "The notebook demonstrates strong competency in loading and handling NWB data. It successfully: 1) Uses lindi and pynwb to load remote NWB files, 2) Shows how to access basic metadata (session_description, identifier, time), 3) Accesses different data types including OnePhotonSeries and RoiResponseSeries, 4) Handles multiple data structures (PlaneSegmentation, image masks, fluorescence data), 5) Demonstrates data visualization from loaded arrays, and 6) Shows proper error handling and data type management. However, it doesn't show advanced data access techniques like parallel loading or chunking, and focuses on a single NWB file rather than multiple files.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "visualize-nwb-data",
+            "version": 1,
+            "score": 7.0,
+            "reps": [
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook demonstrates multiple visualization types from the NWB file with proper formatting and labeling:\n    1. Shows spatial visualization of image masks using imshow with proper colorbar, title, and axis labels\n    2. Plots temporal fluorescence data for multiple neurons with legend, title, and axis labels\n    3. Uses good visualization practices (appropriate figure sizes, seaborn styling)\n    4. Includes explanatory markdown text describing the visualizations\n    However, it doesn't reach the highest scores because:\n    - Visualizations are relatively basic without advanced techniques\n    - Limited interactivity or customization options\n    - Could include more data types from the NWB file\n    - Not quite publication quality in terms of formatting and polish",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook demonstrates multiple visualization types (image masks and time series) with proper formatting, labels, and titles. It shows both spatial (cell locations) and temporal (fluorescence) data from the NWB file. The visualizations use appropriate colormaps, legends, and axes labels. The code successfully loads and plots the data, and includes explanatory markdown text. However, it doesn't reach publication quality as it lacks error handling, customization options, or advanced visualization techniques. The plots are functional but basic, using standard matplotlib/seaborn defaults without sophisticated styling or interactive features.",
+                    "repnum": 1
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook demonstrates solid visualization capabilities with clear examples of two key data types from the NWB file: image masks (spatial data) and RoiResponseSeries (temporal data). The plots are properly labeled with titles, axes, legends, and colorbars where appropriate. The code uses professional plotting libraries (matplotlib and seaborn) and includes basic formatting. The visualizations are preceded by clear explanations of what is being plotted. However, it falls short of advanced techniques or publication quality - the plots use basic styling, no statistical analyses are shown, and there could be more customization of visual elements. Some intermediate aspects like error bars, subplot layouts, or dynamic visualizations are missing.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quality",
+            "version": 1,
+            "score": 7.0,
+            "reps": [
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook contains two main plots: a heatmap of image masks and a time series plot of neural activity. Both plots have proper basic formatting including titles, axis labels, and legends. The plots are clear and readable with appropriate figure sizes and color schemes (using seaborn styling). However, they lack some elements that would make them truly publication-ready, such as: standardized font sizes, proper scientific units on axes, detailed captions/descriptions, grid lines for better readability, and optimization of the color schemes for colorblind accessibility. The time series plot could benefit from clearer time units and better spacing of the legend.",
+                    "repnum": 0
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook contains two plots: a heatmap of image masks and a time series plot of neuron activity. Both plots include essential elements like titles, axis labels, and colorbars/legends. The plots use appropriate color schemes (viridis for heatmap) and have reasonable figure sizes. However, they could be improved by: adding units to axes, including error bars/confidence intervals, adjusting font sizes for better readability, and providing more detailed descriptions in titles/labels. The seaborn theme adds professional styling, but the default parameters could be better tuned for publication quality.",
+                    "repnum": 1
+                },
+                {
+                    "score": 7.0,
+                    "thinking": "The notebook contains two plots: an image mask visualization and a time series plot of neural activity. Both plots have proper figure sizing and basic formatting elements. They include titles, axis labels, and where appropriate, legends and colorbars. The seaborn theme is used for consistent styling. However, they lack some elements that would make them truly publication-ready, such as standardized font sizes, detailed axis units, statistical annotations, or subplot arrangements. The plots are functional and well-labeled but remain at a level suitable for analysis rather than publication.",
+                    "repnum": 2
+                }
+            ]
+        },
+        {
+            "name": "plot-quantity",
+            "version": 1,
+            "score": 3.3333333333333335,
+            "reps": [
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains exactly two plots: 1) A heatmap visualization of image masks showing the spatial footprints of individual cells, and 2) A line plot showing RoiResponseSeries data for multiple neurons over time. Both plots are effective and show different aspects of the data - spatial data through the heatmap and temporal data through the time series plot. However, there are only two plots in total.",
+                    "repnum": 0
+                },
+                {
+                    "score": 4.0,
+                    "thinking": "The notebook contains exactly two plots that effectively visualize different aspects of the data: 1) A heatmap showing the superimposed image masks of the cells using plt.imshow(), which displays spatial information about cell locations, and 2) A time series plot showing the fluorescence activity of 5 different neurons over time using plt.plot(). Both plots are well-labeled with titles, axes, and appropriate colorbars/legends. They demonstrate different visualization techniques (heatmap and line plot) and show different aspects of the data (spatial and temporal).",
+                    "repnum": 1
+                },
+                {
+                    "score": 3.0,
+                    "thinking": "The notebook contains two effective plots:\n    1. A heatmap showing superimposed image masks of cell locations using plt.imshow(), with appropriate colorbar, labels, and title\n    2. A time series plot showing fluorescence activity of 5 neurons over time, with proper legend, labels, and title\n    Both plots are well-formatted, include necessary context, and effectively visualize different aspects of the calcium imaging data.",
+                    "repnum": 2
+                }
+            ]
+        }
+    ]
+}
