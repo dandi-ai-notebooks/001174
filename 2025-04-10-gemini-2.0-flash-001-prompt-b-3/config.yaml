@@ -1,0 +1,3 @@
+model: google/gemini-2.0-flash-001
+prompt: prompt-b-3.txt
+dandiset_id: "001174"
