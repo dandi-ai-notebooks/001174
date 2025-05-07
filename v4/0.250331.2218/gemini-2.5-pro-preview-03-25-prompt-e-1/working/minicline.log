@@ -1,0 +1,1377 @@
+Using model: google/gemini-2.5-pro-preview-03-25
+Num. messages in conversation: 2
+Submitting completion request...
+Processing response...
+I need to execute the command `python tools_cli.py dandiset-info 001174 --version 0.250331.2218` to get the Dandiset metadata as per step 1 of the plan.
+This command is non-destructive.
+
+Tool: execute_command
+Params: {'command': 'python tools_cli.py dandiset-info 001174 --version 0.250331.2218', 'requires_approval': 'false'}
+================================
+Command to be executed
+python tools_cli.py dandiset-info 001174 --version 0.250331.2218
+================================
+{
+  "results": {
+    "id": "DANDI:001174/0.250331.2218",
+    "name": "Calcium imaging in SMA and M1 of macaques",
+    "about": [
+      {
+        "name": "Publication associated with this dataset",
+        "schemaKey": "GenericType"
+      }
+    ],
+    "access": [
+      {
+        "status": "dandi:OpenAccess",
+        "schemaKey": "AccessRequirements"
+      }
+    ],
+    "license": [
+      "spdx:CC-BY-4.0"
+    ],
+    "version": "0.250331.2218",
+    "citation": "Galvan, Adriana; Martel, Anne-Caroline; Pittard, Damien; Devergnas, Annaelle; Risk, Benjamin; Nassi, Jonathan J.; Yu, Waylin; Downer, Joshua D. ; Wichmann, Thomas (2025) Calcium imaging in SMA and M1 of macaques (Version 0.250331.2218) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001174/0.250331.2218",
+    "keywords": [
+      "One-photon calcium imaging, non-human primates, microendoscope, reaching task, neuronal coactivation, calcium sensors, GCaMP, GRIN lens"
+    ],
+    "protocol": [],
+    "identifier": "DANDI:001174",
+    "contributor": [
+      "Galvan, Adriana",
+      "Martel, Anne-Caroline",
+      "Pittard, Damien",
+      "Devergnas, Annaelle",
+      "Risk, Benjamin",
+      "Nassi, Jonathan J.",
+      "Yu, Waylin",
+      "Downer, Joshua D. ",
+      "Wichmann, Thomas",
+      "Aligning Science Across Parkinson's",
+      "NIH ORIP"
+    ],
+    "dateCreated": "2024-08-14T21:48:01.209431+00:00",
+    "description": "The study of motor cortices in non-human primates is relevant to our understanding of human motor control, both in healthy conditions and in movement disorders. Calcium imaging and miniature microscopes allow the study of multiple genetically identified neurons with excellent spatial resolution. We used this method to examine activity patterns of projection neurons in deep layers of the supplementary motor (SMA) and primary motor areas (M1) in four rhesus macaques. We implanted gradient index lenses and expressed GCaMP6f to image calcium transients while the animals were at rest or engaged in an arm reaching task. We tracked the activity of SMA and M1 neurons across conditions, examined cell pairs for synchronous activity, and assessed whether SMA and M1 neuronal activation followed specific sequential activation patterns. We demonstrate the value of in vivo calcium imaging for studying patterns of activity in groups of corticofugal neurons in SMA and M1.",
+    "variableMeasured": [
+      "ProcessingModule",
+      "PlaneSegmentation",
+      "OpticalChannel",
+      "ImagingPlane",
+      "OnePhotonSeries"
+    ],
+    "measurementTechnique": [
+      {
+        "name": "analytical technique",
+        "schemaKey": "MeasurementTechniqueType"
+      },
+      {
+        "name": "surgical technique",
+        "schemaKey": "MeasurementTechniqueType"
+      },
+      {
+        "name": "one-photon microscopy technique",
+        "schemaKey": "MeasurementTechniqueType"
+      }
+    ]
+  }
+}
+Total prompt tokens: 8934 + 0
+Total completion tokens: 436 + 0
+
+=========================================
+
+execute_command 'python tools_cli.py dandiset-info 001174 --version 0.250331.2218' (requires approval):
+Command executed successfully
+STDOUT:
+{
+  "results": {
+    "id": "DANDI:001174/0.250331.2218",
+    "name": "Calcium imaging in SMA and M1 of macaques",
+    "about": [
+      {
+        "name": "Publication associated with this dataset",
+        "schemaKey": "GenericType"
+      }
+    ],
+    "access": [
+      {
+        "status": "dandi:OpenAccess",
+        "schemaKey": "AccessRequirements"
+      }
+    ],
+    "license": [
+      "spdx:CC-BY-4.0"
+    ],
+    "version": "0.250331.2218",
+    "citation": "Galvan, Adriana; Martel, Anne-Caroline; Pittard, Damien; Devergnas, Annaelle; Risk, Benjamin; Nassi, Jonathan J.; Yu, Waylin; Downer, Joshua D. ; Wichmann, Thomas (2025) Calcium imaging in SMA and M1 of macaques (Version 0.250331.2218) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001174/0.250331.2218",
+    "keywords": [
+      "One-photon calcium imaging, non-human primates, microendoscope, reaching task, neuronal coactivation, calcium sensors, GCaMP, GRIN lens"
+    ],
+    "protocol": [],
+    "identifier": "DANDI:001174",
+    "contributor": [
+      "Galvan, Adriana",
+      "Martel, Anne-Caroline",
+      "Pittard, Damien",
+      "Devergnas, Annaelle",
+      "Risk, Benjamin",
+      "Nassi, Jonathan J.",
+      "Yu, Waylin",
+      "Downer, Joshua D. ",
+      "Wichmann, Thomas",
+      "Aligning Science Across Parkinson's",
+      "NIH ORIP"
+    ],
+    "dateCreated": "2024-08-14T21:48:01.209431+00:00",
+    "description": "The study of motor cortices in non-human primates is relevant to our understanding of human motor control, both in healthy conditions and in movement disorders. Calcium imaging and miniature microscopes allow the study of multiple genetically identified neurons with excellent spatial resolution. We used this method to examine activity patterns of projection neurons in deep layers of the supplementary motor (SMA) and primary motor areas (M1) in four rhesus macaques. We implanted gradient index lenses and expressed GCaMP6f to image calcium transients while the animals were at rest or engaged in an arm reaching task. We tracked the activity of SMA and M1 neurons across conditions, examined cell pairs for synchronous activity, and assessed whether SMA and M1 neuronal activation followed specific sequential activation patterns. We demonstrate the value of in vivo calcium imaging for studying patterns of activity in groups of corticofugal neurons in SMA and M1.",
+    "variableMeasured": [
+      "ProcessingModule",
+      "PlaneSegmentation",
+      "OpticalChannel",
+      "ImagingPlane",
+      "OnePhotonSeries"
+    ],
+    "measurementTechnique": [
+      {
+        "name": "analytical technique",
+        "schemaKey": "MeasurementTechniqueType"
+      },
+      {
+        "name": "surgical technique",
+        "schemaKey": "MeasurementTechniqueType"
+      },
+      {
+        "name": "one-photon microscopy technique",
+        "schemaKey": "MeasurementTechniqueType"
+      }
+    ]
+  }
+}
+
+=========================================
+
+Using model: google/gemini-2.5-pro-preview-03-25
+Num. messages in conversation: 4
+Submitting completion request...
+Processing response...
+I need to execute the command `python tools_cli.py dandiset-assets 001174 --version 0.250331.2218` to get the Dandiset assets as per step 2 of the plan.
+This command is non-destructive.
+
+Tool: execute_command
+Params: {'command': 'python tools_cli.py dandiset-assets 001174 --version 0.250331.2218', 'requires_approval': 'false'}
+================================
+Command to be executed
+python tools_cli.py dandiset-assets 001174 --version 0.250331.2218
+================================
+{
+  "results": {
+    "count": 45,
+    "results": [
+      {
+        "asset_id": "193fee16-550e-4a8f-aab8-2383f6d57a03",
+        "path": "sub-F/sub-F_ses-20240213T110430_ophys.nwb",
+        "size": 12386608968
+      },
+      {
+        "asset_id": "1239b373-37af-4c03-b325-a6350dc9a36a",
+        "path": "sub-F/sub-F_ses-20240220T093333_ophys.nwb",
+        "size": 24783668760
+      },
+      {
+        "asset_id": "1f300be0-0277-4ea0-9397-477439a05675",
+        "path": "sub-F/sub-F_ses-20240223T092813_ophys.nwb",
+        "size": 24789419644
+      },
+      {
+        "asset_id": "29b28a2d-6526-4d4f-ab3f-92a4552f2762",
+        "path": "sub-F/sub-F_ses-20240227T101624_ophys.nwb",
+        "size": 24754162152
+      },
+      {
+        "asset_id": "7a05bcc2-e36d-4f65-82dd-fd23673625c2",
+        "path": "sub-F/sub-F_ses-20240229T104523_ophys.nwb",
+        "size": 24801436224
+      },
+      {
+        "asset_id": "e8683e44-4ae7-4810-94a8-7b0917b80ff4",
+        "path": "sub-F/sub-F_ses-20240305T093611_ophys.nwb",
+        "size": 24710199592
+      },
+      {
+        "asset_id": "17963d0d-362d-40a3-aa7f-645c719f3f4a",
+        "path": "sub-F/sub-F_ses-20240307T091711_ophys.nwb",
+        "size": 26086861880
+      },
+      {
+        "asset_id": "95c7a2aa-6800-46d4-96dc-32d40f8d93e5",
+        "path": "sub-F/sub-F_ses-20240312T101306_ophys.nwb",
+        "size": 12566835768
+      },
+      {
+        "asset_id": "57b628fc-52f1-48bb-8e68-06e5bd739844",
+        "path": "sub-F/sub-F_ses-20240319T102114_ophys.nwb",
+        "size": 12625446988
+      },
+      {
+        "asset_id": "de07db56-e7f3-4809-9972-755c51598e8d",
+        "path": "sub-Q/sub-Q_ophys.nwb",
+        "size": 790140856
+      },
+      {
+        "asset_id": "807851a7-ad52-4505-84ee-3b155a5bd2a3",
+        "path": "sub-Q/sub-Q_ses-20220915T133954_ophys.nwb",
+        "size": 1178268408
+      },
+      {
+        "asset_id": "ac161d0e-7642-48bd-9bef-8eff59319d48",
+        "path": "sub-Q/sub-Q_ses-20220922T131747_ophys.nwb",
+        "size": 787845832
+      },
+      {
+        "asset_id": "71e73980-5bd1-455b-a703-38c00ab46ebf",
+        "path": "sub-Q/sub-Q_ses-20220922T133032_ophys.nwb",
+        "size": 1571589152
+      },
+      {
+        "asset_id": "9c3678d5-22c3-402c-8cd4-6bc38c4d61e3",
+        "path": "sub-Q/sub-Q_ses-20221003T131952_ophys.nwb",
+        "size": 1695928224
+      },
+      {
+        "asset_id": "81b54b97-4e0e-4928-8ed7-f3b98e717e6f",
+        "path": "sub-Q/sub-Q_ses-20221003T134805_ophys.nwb",
+        "size": 1560482568
+      },
+      {
+        "asset_id": "b4e6bbf7-0564-4628-b8f0-680fd9b8d4ea",
+        "path": "sub-Q/sub-Q_ses-20221028T121142_ophys.nwb",
+        "size": 1557206224
+      },
+      {
+        "asset_id": "6b3248f0-2cf8-495d-8dbf-fba4ca693bd4",
+        "path": "sub-Q/sub-Q_ses-20221028T123313_ophys.nwb",
+        "size": 1117844728
+      },
+      {
+        "asset_id": "628c87ee-c3e1-44f3-b4b4-54aa67a0f6e4",
+        "path": "sub-Q/sub-Q_ses-20221201T132256_ophys.nwb",
+        "size": 1656990892
+      },
+      {
+        "asset_id": "d20fcefe-7d3c-48a4-bb90-8913e84b6bff",
+        "path": "sub-Q/sub-Q_ses-20221201T134628_ophys.nwb",
+        "size": 835445412
+      },
+      {
+        "asset_id": "35368f54-9bc6-4424-af61-99aa98201bdf",
+        "path": "sub-Q/sub-Q_ses-20221202T122907_ophys.nwb",
+        "size": 1568849832
+      }
+    ]
+  }
+}
+Total prompt tokens: 18959 + 0
+Total completion tokens: 594 + 0
+
+=========================================
+
+execute_command 'python tools_cli.py dandiset-assets 001174 --version 0.250331.2218' (requires approval):
+Command executed successfully
+STDOUT:
+{
+  "results": {
+    "count": 45,
+    "results": [
+      {
+        "asset_id": "193fee16-550e-4a8f-aab8-2383f6d57a03",
+        "path": "sub-F/sub-F_ses-20240213T110430_ophys.nwb",
+        "size": 12386608968
+      },
+      {
+        "asset_id": "1239b373-37af-4c03-b325-a6350dc9a36a",
+        "path": "sub-F/sub-F_ses-20240220T093333_ophys.nwb",
+        "size": 24783668760
+      },
+      {
+        "asset_id": "1f300be0-0277-4ea0-9397-477439a05675",
+        "path": "sub-F/sub-F_ses-20240223T092813_ophys.nwb",
+        "size": 24789419644
+      },
+      {
+        "asset_id": "29b28a2d-6526-4d4f-ab3f-92a4552f2762",
+        "path": "sub-F/sub-F_ses-20240227T101624_ophys.nwb",
+        "size": 24754162152
+      },
+      {
+        "asset_id": "7a05bcc2-e36d-4f65-82dd-fd23673625c2",
+        "path": "sub-F/sub-F_ses-20240229T104523_ophys.nwb",
+        "size": 24801436224
+      },
+      {
+        "asset_id": "e8683e44-4ae7-4810-94a8-7b0917b80ff4",
+        "path": "sub-F/sub-F_ses-20240305T093611_ophys.nwb",
+        "size": 24710199592
+      },
+      {
+        "asset_id": "17963d0d-362d-40a3-aa7f-645c719f3f4a",
+        "path": "sub-F/sub-F_ses-20240307T091711_ophys.nwb",
+        "size": 26086861880
+      },
+      {
+        "asset_id": "95c7a2aa-6800-46d4-96dc-32d40f8d93e5",
+        "path": "sub-F/sub-F_ses-20240312T101306_ophys.nwb",
+        "size": 12566835768
+      },
+      {
+        "asset_id": "57b628fc-52f1-48bb-8e68-06e5bd739844",
+        "path": "sub-F/sub-F_ses-20240319T102114_ophys.nwb",
+        "size": 12625446988
+      },
+      {
+        "asset_id": "de07db56-e7f3-4809-9972-755c51598e8d",
+        "path": "sub-Q/sub-Q_ophys.nwb",
+        "size": 790140856
+      },
+      {
+        "asset_id": "807851a7-ad52-4505-84ee-3b155a5bd2a3",
+        "path": "sub-Q/sub-Q_ses-20220915T133954_ophys.nwb",
+        "size": 1178268408
+      },
+      {
+        "asset_id": "ac161d0e-7642-48bd-9bef-8eff59319d48",
+        "path": "sub-Q/sub-Q_ses-20220922T131747_ophys.nwb",
+        "size": 787845832
+      },
+      {
+        "asset_id": "71e73980-5bd1-455b-a703-38c00ab46ebf",
+        "path": "sub-Q/sub-Q_ses-20220922T133032_ophys.nwb",
+        "size": 1571589152
+      },
+      {
+        "asset_id": "9c3678d5-22c3-402c-8cd4-6bc38c4d61e3",
+        "path": "sub-Q/sub-Q_ses-20221003T131952_ophys.nwb",
+        "size": 1695928224
+      },
+      {
+        "asset_id": "81b54b97-4e0e-4928-8ed7-f3b98e717e6f",
+        "path": "sub-Q/sub-Q_ses-20221003T134805_ophys.nwb",
+        "size": 1560482568
+      },
+      {
+        "asset_id": "b4e6bbf7-0564-4628-b8f0-680fd9b8d4ea",
+        "path": "sub-Q/sub-Q_ses-20221028T121142_ophys.nwb",
+        "size": 1557206224
+      },
+      {
+        "asset_id": "6b3248f0-2cf8-495d-8dbf-fba4ca693bd4",
+        "path": "sub-Q/sub-Q_ses-20221028T123313_ophys.nwb",
+        "size": 1117844728
+      },
+      {
+        "asset_id": "628c87ee-c3e1-44f3-b4b4-54aa67a0f6e4",
+        "path": "sub-Q/sub-Q_ses-20221201T132256_ophys.nwb",
+        "size": 1656990892
+      },
+      {
+        "asset_id": "d20fcefe-7d3c-48a4-bb90-8913e84b6bff",
+        "path": "sub-Q/sub-Q_ses-20221201T134628_ophys.nwb",
+        "size": 835445412
+      },
+      {
+        "asset_id": "35368f54-9bc6-4424-af61-99aa98201bdf",
+        "path": "sub-Q/sub-Q_ses-20221202T122907_ophys.nwb",
+        "size": 1568849832
+      }
+    ]
+  }
+}
+
+=========================================
+
+Using model: google/gemini-2.5-pro-preview-03-25
+Num. messages in conversation: 6
+Submitting completion request...
+Processing response...
+I need to execute the command `python tools_cli.py nwb-file-info 001174 https://api.dandiarchive.org/api/assets/193fee16-550e-4a8f-aab8-2383f6d57a03/download/ --version 0.250331.2218` to get information about the selected NWB file, as per step 3 of the plan.
+This command is non-destructive.
+
+Tool: execute_command
+Params: {'command': 'python tools_cli.py nwb-file-info 001174 https://api.dandiarchive.org/api/assets/193fee16-550e-4a8f-aab8-2383f6d57a03/download/ --version 0.250331.2218', 'requires_approval': 'false'}
+================================
+Command to be executed
+python tools_cli.py nwb-file-info 001174 https://api.dandiarchive.org/api/assets/193fee16-550e-4a8f-aab8-2383f6d57a03/download/ --version 0.250331.2218
+================================
+# This script shows how to load the NWB file at https://api.dandiarchive.org/api/assets/193fee16-550e-4a8f-aab8-2383f6d57a03/download/ in Python using PyNWB
+
+import pynwb
+import h5py
+import remfile
+
+# Load
+url = "https://api.dandiarchive.org/api/assets/193fee16-550e-4a8f-aab8-2383f6d57a03/download/"
+remote_file = remfile.File(url)
+h5_file = h5py.File(remote_file)
+io = pynwb.NWBHDF5IO(file=h5_file)
+nwb = io.read()
+
+nwb # (NWBFile)
+nwb.session_description # (str) Calcium imaging in SMA during the spontaneous condition
+nwb.identifier # (str) cfb46dc9-b1e4-4fa9-bbf7-f3314fd5c5b3
+nwb.session_start_time # (datetime) 2024-02-13T11:04:30.267000+00:00
+nwb.timestamps_reference_time # (datetime) 2024-02-13T11:04:30.267000+00:00
+nwb.file_create_date # (list) [datetime.datetime(2025, 2, 3, 13, 54, 29, 336778, tzinfo=tzlocal())]
+nwb.acquisition # (LabelledDict)
+acquisition = nwb.acquisition
+OnePhotonSeries = acquisition["OnePhotonSeries"]
+OnePhotonSeries # (OnePhotonSeries)
+OnePhotonSeries.starting_time # (float64) 0.0
+OnePhotonSeries.rate # (float64) 10.0
+OnePhotonSeries.resolution # (float64) -1.0
+OnePhotonSeries.comments # (str) no comments
+OnePhotonSeries.description # (str) Miniscope imaging data
+OnePhotonSeries.conversion # (float64) 1.0
+OnePhotonSeries.offset # (float64) 0.0
+OnePhotonSeries.unit # (str) fluorescence
+OnePhotonSeries.data # (Dataset) shape (6026, 1280, 800); dtype uint16
+# OnePhotonSeries.data[:, :, :] # Access all data
+# OnePhotonSeries.data[0, :, :] # Access first plane
+OnePhotonSeries.starting_time_unit # (str) seconds
+OnePhotonSeries.imaging_plane # (ImagingPlane)
+OnePhotonSeries.imaging_plane.optical_channel # (list)
+OnePhotonSeries.imaging_plane.description # (str) The plane being imaged by the miniscope
+OnePhotonSeries.imaging_plane.excitation_lambda # (float64) 475.0
+OnePhotonSeries.imaging_plane.imaging_rate # (float64) 10.0
+OnePhotonSeries.imaging_plane.indicator # (str) N/A
+OnePhotonSeries.imaging_plane.location # (str) N/A
+OnePhotonSeries.imaging_plane.conversion # (float) 1.0
+OnePhotonSeries.imaging_plane.unit # (str) meters
+OnePhotonSeries.imaging_plane.origin_coords_unit # (str) meters
+OnePhotonSeries.imaging_plane.grid_spacing_unit # (str) meters
+OnePhotonSeries.imaging_plane.device # (Device)
+OnePhotonSeries.imaging_plane.device.description # (str) NVista3
+OnePhotonSeries.imaging_plane.device.manufacturer # (str) Inscopix, Inc.
+nwb.processing # (LabelledDict)
+processing = nwb.processing
+ophys = processing["ophys"]
+ophys # (ProcessingModule)
+ophys.description # (str) Optical physiology data obtained by processing raw calcium imaging data
+ophys.data_interfaces # (LabelledDict)
+data_interfaces = ophys.data_interfaces
+EventAmplitude = data_interfaces["EventAmplitude"]
+EventAmplitude # (RoiResponseSeries)
+EventAmplitude.starting_time # (float64) 0.0
+EventAmplitude.rate # (float64) 10.003722380947028
+EventAmplitude.resolution # (float64) -1.0
+EventAmplitude.comments # (str) no comments
+EventAmplitude.description # (str) Amplitude of neural events associated with spatial footprints
+EventAmplitude.conversion # (float64) 1.0
+EventAmplitude.offset # (float64) 0.0
+EventAmplitude.unit # (str) fluorescence
+EventAmplitude.data # (Dataset) shape (6026, 6); dtype float64
+# EventAmplitude.data[:, :] # Access all data
+# EventAmplitude.data[0:n, :] # Access first n rows
+# EventAmplitude.data[:, 0:n] # Access first n columns
+EventAmplitude.starting_time_unit # (str) seconds
+EventAmplitude.rois # (DynamicTableRegion)
+EventAmplitude.rois.description # (str) ROIs
+EventAmplitude.rois.table # (PlaneSegmentation)
+EventAmplitude.rois.table.description # (str) Footprints of individual cells obtained by segmenting the field of view
+EventAmplitude.rois.table.colnames # (tuple) ['image_mask']
+EventAmplitude.rois.table.columns # (tuple)
+EventAmplitude.rois.table.reference_images # (list)
+EventAmplitude.rois.table.id # (ElementIdentifiers)
+EventAmplitude.rois.table.imaging_plane # (ImagingPlane)
+EventAmplitude.rois.table.imaging_plane.optical_channel # (list)
+EventAmplitude.rois.table.imaging_plane.description # (str) The plane being imaged by the miniscope
+EventAmplitude.rois.table.imaging_plane.excitation_lambda # (float64) 475.0
+EventAmplitude.rois.table.imaging_plane.imaging_rate # (float64) 10.0
+EventAmplitude.rois.table.imaging_plane.indicator # (str) N/A
+EventAmplitude.rois.table.imaging_plane.location # (str) N/A
+EventAmplitude.rois.table.imaging_plane.conversion # (float) 1.0
+EventAmplitude.rois.table.imaging_plane.unit # (str) meters
+EventAmplitude.rois.table.imaging_plane.origin_coords_unit # (str) meters
+EventAmplitude.rois.table.imaging_plane.grid_spacing_unit # (str) meters
+EventAmplitude.rois.table.imaging_plane.device # (Device)
+EventAmplitude.rois.table.imaging_plane.device.description # (str) NVista3
+EventAmplitude.rois.table.imaging_plane.device.manufacturer # (str) Inscopix, Inc.
+# EventAmplitude.rois.table.to_dataframe() # (DataFrame) Convert to a pandas DataFrame with 6 rows and 1 columns
+# EventAmplitude.rois.table.to_dataframe().head() # (DataFrame) Show the first few rows of the pandas DataFrame
+EventAmplitude.rois.table.image_mask # (VectorData) Image masks for each ROI
+Fluorescence = data_interfaces["Fluorescence"]
+Fluorescence # (Fluorescence)
+Fluorescence.roi_response_series # (LabelledDict)
+roi_response_series = Fluorescence.roi_response_series
+RoiResponseSeries = roi_response_series["RoiResponseSeries"]
+RoiResponseSeries # (RoiResponseSeries)
+RoiResponseSeries.starting_time # (float64) 0.0
+RoiResponseSeries.rate # (float64) 10.0
+RoiResponseSeries.resolution # (float64) -1.0
+RoiResponseSeries.comments # (str) no comments
+RoiResponseSeries.description # (str) Fluorescence data associated with spatial footprints
+RoiResponseSeries.conversion # (float64) 1.0
+RoiResponseSeries.offset # (float64) 0.0
+RoiResponseSeries.unit # (str) fluorescence
+RoiResponseSeries.data # (Dataset) shape (6026, 6); dtype float32
+# RoiResponseSeries.data[:, :] # Access all data
+# RoiResponseSeries.data[0:n, :] # Access first n rows
+# RoiResponseSeries.data[:, 0:n] # Access first n columns
+RoiResponseSeries.starting_time_unit # (str) seconds
+RoiResponseSeries.rois # (DynamicTableRegion)
+RoiResponseSeries.rois.description # (str) ROIs
+RoiResponseSeries.rois.table # (PlaneSegmentation)
+RoiResponseSeries.rois.table.description # (str) Footprints of individual cells obtained by segmenting the field of view
+RoiResponseSeries.rois.table.colnames # (tuple) ['image_mask']
+RoiResponseSeries.rois.table.columns # (tuple)
+RoiResponseSeries.rois.table.reference_images # (list)
+RoiResponseSeries.rois.table.id # (ElementIdentifiers)
+RoiResponseSeries.rois.table.imaging_plane # (ImagingPlane)
+RoiResponseSeries.rois.table.imaging_plane.optical_channel # (list)
+RoiResponseSeries.rois.table.imaging_plane.description # (str) The plane being imaged by the miniscope
+RoiResponseSeries.rois.table.imaging_plane.excitation_lambda # (float64) 475.0
+RoiResponseSeries.rois.table.imaging_plane.imaging_rate # (float64) 10.0
+RoiResponseSeries.rois.table.imaging_plane.indicator # (str) N/A
+RoiResponseSeries.rois.table.imaging_plane.location # (str) N/A
+RoiResponseSeries.rois.table.imaging_plane.conversion # (float) 1.0
+RoiResponseSeries.rois.table.imaging_plane.unit # (str) meters
+RoiResponseSeries.rois.table.imaging_plane.origin_coords_unit # (str) meters
+RoiResponseSeries.rois.table.imaging_plane.grid_spacing_unit # (str) meters
+RoiResponseSeries.rois.table.imaging_plane.device # (Device)
+RoiResponseSeries.rois.table.imaging_plane.device.description # (str) NVista3
+RoiResponseSeries.rois.table.imaging_plane.device.manufacturer # (str) Inscopix, Inc.
+# RoiResponseSeries.rois.table.to_dataframe() # (DataFrame) Convert to a pandas DataFrame with 6 rows and 1 columns
+# RoiResponseSeries.rois.table.to_dataframe().head() # (DataFrame) Show the first few rows of the pandas DataFrame
+RoiResponseSeries.rois.table.image_mask # (VectorData) Image masks for each ROI
+ImageSegmentation = data_interfaces["ImageSegmentation"]
+ImageSegmentation # (ImageSegmentation)
+ImageSegmentation.plane_segmentations # (LabelledDict)
+plane_segmentations = ImageSegmentation.plane_segmentations
+PlaneSegmentation = plane_segmentations["PlaneSegmentation"]
+PlaneSegmentation # (PlaneSegmentation)
+PlaneSegmentation.description # (str) Footprints of individual cells obtained by segmenting the field of view
+PlaneSegmentation.colnames # (tuple) ['image_mask']
+PlaneSegmentation.columns # (tuple)
+PlaneSegmentation.reference_images # (list)
+PlaneSegmentation.id # (ElementIdentifiers)
+PlaneSegmentation.imaging_plane # (ImagingPlane)
+PlaneSegmentation.imaging_plane.optical_channel # (list)
+PlaneSegmentation.imaging_plane.description # (str) The plane being imaged by the miniscope
+PlaneSegmentation.imaging_plane.excitation_lambda # (float64) 475.0
+PlaneSegmentation.imaging_plane.imaging_rate # (float64) 10.0
+PlaneSegmentation.imaging_plane.indicator # (str) N/A
+PlaneSegmentation.imaging_plane.location # (str) N/A
+PlaneSegmentation.imaging_plane.conversion # (float) 1.0
+PlaneSegmentation.imaging_plane.unit # (str) meters
+PlaneSegmentation.imaging_plane.origin_coords_unit # (str) meters
+PlaneSegmentation.imaging_plane.grid_spacing_unit # (str) meters
+PlaneSegmentation.imaging_plane.device # (Device)
+PlaneSegmentation.imaging_plane.device.description # (str) NVista3
+PlaneSegmentation.imaging_plane.device.manufacturer # (str) Inscopix, Inc.
+# PlaneSegmentation.to_dataframe() # (DataFrame) Convert to a pandas DataFrame with 6 rows and 1 columns
+# PlaneSegmentation.to_dataframe().head() # (DataFrame) Show the first few rows of the pandas DataFrame
+PlaneSegmentation.image_mask # (VectorData) Image masks for each ROI
+nwb.devices # (LabelledDict)
+devices = nwb.devices
+Miniscope = devices["Miniscope"]
+Miniscope # (Device)
+Miniscope.description # (str) NVista3
+Miniscope.manufacturer # (str) Inscopix, Inc.
+nwb.imaging_planes # (LabelledDict)
+imaging_planes = nwb.imaging_planes
+ImagingPlane = imaging_planes["ImagingPlane"]
+ImagingPlane # (ImagingPlane)
+ImagingPlane.optical_channel # (list)
+ImagingPlane.description # (str) The plane being imaged by the miniscope
+ImagingPlane.excitation_lambda # (float64) 475.0
+ImagingPlane.imaging_rate # (float64) 10.0
+ImagingPlane.indicator # (str) N/A
+ImagingPlane.location # (str) N/A
+ImagingPlane.conversion # (float) 1.0
+ImagingPlane.unit # (str) meters
+ImagingPlane.origin_coords_unit # (str) meters
+ImagingPlane.grid_spacing_unit # (str) meters
+ImagingPlane.device # (Device)
+ImagingPlane.device.description # (str) NVista3
+ImagingPlane.device.manufacturer # (str) Inscopix, Inc.
+nwb.subject # (Subject)
+nwb.subject.age # (str) P5Y
+nwb.subject.age__reference # (str) birth
+nwb.subject.sex # (str) F
+nwb.subject.species # (str) Macaca mulatta
+nwb.subject.subject_id # (str) F
+Total prompt tokens: 31275 + 0
+Total completion tokens: 1005 + 0
+
+=========================================
+
+execute_command 'python tools_cli.py nwb-file-info 001174 https://api.dandiarchive.org/api/assets/193fee16-550e-4a8f-aab8-2383f6d57a03/download/ --version 0.250331.2218' (requires approval):
+Command executed successfully
+STDOUT:
+# This script shows how to load the NWB file at https://api.dandiarchive.org/api/assets/193fee16-550e-4a8f-aab8-2383f6d57a03/download/ in Python using PyNWB
+
+import pynwb
+import h5py
+import remfile
+
+# Load
+url = "https://api.dandiarchive.org/api/assets/193fee16-550e-4a8f-aab8-2383f6d57a03/download/"
+remote_file = remfile.File(url)
+h5_file = h5py.File(remote_file)
+io = pynwb.NWBHDF5IO(file=h5_file)
+nwb = io.read()
+
+nwb # (NWBFile)
+nwb.session_description # (str) Calcium imaging in SMA during the spontaneous condition
+nwb.identifier # (str) cfb46dc9-b1e4-4fa9-bbf7-f3314fd5c5b3
+nwb.session_start_time # (datetime) 2024-02-13T11:04:30.267000+00:00
+nwb.timestamps_reference_time # (datetime) 2024-02-13T11:04:30.267000+00:00
+nwb.file_create_date # (list) [datetime.datetime(2025, 2, 3, 13, 54, 29, 336778, tzinfo=tzlocal())]
+nwb.acquisition # (LabelledDict)
+acquisition = nwb.acquisition
+OnePhotonSeries = acquisition["OnePhotonSeries"]
+OnePhotonSeries # (OnePhotonSeries)
+OnePhotonSeries.starting_time # (float64) 0.0
+OnePhotonSeries.rate # (float64) 10.0
+OnePhotonSeries.resolution # (float64) -1.0
+OnePhotonSeries.comments # (str) no comments
+OnePhotonSeries.description # (str) Miniscope imaging data
+OnePhotonSeries.conversion # (float64) 1.0
+OnePhotonSeries.offset # (float64) 0.0
+OnePhotonSeries.unit # (str) fluorescence
+OnePhotonSeries.data # (Dataset) shape (6026, 1280, 800); dtype uint16
+# OnePhotonSeries.data[:, :, :] # Access all data
+# OnePhotonSeries.data[0, :, :] # Access first plane
+OnePhotonSeries.starting_time_unit # (str) seconds
+OnePhotonSeries.imaging_plane # (ImagingPlane)
+OnePhotonSeries.imaging_plane.optical_channel # (list)
+OnePhotonSeries.imaging_plane.description # (str) The plane being imaged by the miniscope
+OnePhotonSeries.imaging_plane.excitation_lambda # (float64) 475.0
+OnePhotonSeries.imaging_plane.imaging_rate # (float64) 10.0
+OnePhotonSeries.imaging_plane.indicator # (str) N/A
+OnePhotonSeries.imaging_plane.location # (str) N/A
+OnePhotonSeries.imaging_plane.conversion # (float) 1.0
+OnePhotonSeries.imaging_plane.unit # (str) meters
+OnePhotonSeries.imaging_plane.origin_coords_unit # (str) meters
+OnePhotonSeries.imaging_plane.grid_spacing_unit # (str) meters
+OnePhotonSeries.imaging_plane.device # (Device)
+OnePhotonSeries.imaging_plane.device.description # (str) NVista3
+OnePhotonSeries.imaging_plane.device.manufacturer # (str) Inscopix, Inc.
+nwb.processing # (LabelledDict)
+processing = nwb.processing
+ophys = processing["ophys"]
+ophys # (ProcessingModule)
+ophys.description # (str) Optical physiology data obtained by processing raw calcium imaging data
+ophys.data_interfaces # (LabelledDict)
+data_interfaces = ophys.data_interfaces
+EventAmplitude = data_interfaces["EventAmplitude"]
+EventAmplitude # (RoiResponseSeries)
+EventAmplitude.starting_time # (float64) 0.0
+EventAmplitude.rate # (float64) 10.003722380947028
+EventAmplitude.resolution # (float64) -1.0
+EventAmplitude.comments # (str) no comments
+EventAmplitude.description # (str) Amplitude of neural events associated with spatial footprints
+EventAmplitude.conversion # (float64) 1.0
+EventAmplitude.offset # (float64) 0.0
+EventAmplitude.unit # (str) fluorescence
+EventAmplitude.data # (Dataset) shape (6026, 6); dtype float64
+# EventAmplitude.data[:, :] # Access all data
+# EventAmplitude.data[0:n, :] # Access first n rows
+# EventAmplitude.data[:, 0:n] # Access first n columns
+EventAmplitude.starting_time_unit # (str) seconds
+EventAmplitude.rois # (DynamicTableRegion)
+EventAmplitude.rois.description # (str) ROIs
+EventAmplitude.rois.table # (PlaneSegmentation)
+EventAmplitude.rois.table.description # (str) Footprints of individual cells obtained by segmenting the field of view
+EventAmplitude.rois.table.colnames # (tuple) ['image_mask']
+EventAmplitude.rois.table.columns # (tuple)
+EventAmplitude.rois.table.reference_images # (list)
+EventAmplitude.rois.table.id # (ElementIdentifiers)
+EventAmplitude.rois.table.imaging_plane # (ImagingPlane)
+EventAmplitude.rois.table.imaging_plane.optical_channel # (list)
+EventAmplitude.rois.table.imaging_plane.description # (str) The plane being imaged by the miniscope
+EventAmplitude.rois.table.imaging_plane.excitation_lambda # (float64) 475.0
+EventAmplitude.rois.table.imaging_plane.imaging_rate # (float64) 10.0
+EventAmplitude.rois.table.imaging_plane.indicator # (str) N/A
+EventAmplitude.rois.table.imaging_plane.location # (str) N/A
+EventAmplitude.rois.table.imaging_plane.conversion # (float) 1.0
+EventAmplitude.rois.table.imaging_plane.unit # (str) meters
+EventAmplitude.rois.table.imaging_plane.origin_coords_unit # (str) meters
+EventAmplitude.rois.table.imaging_plane.grid_spacing_unit # (str) meters
+EventAmplitude.rois.table.imaging_plane.device # (Device)
+EventAmplitude.rois.table.imaging_plane.device.description # (str) NVista3
+EventAmplitude.rois.table.imaging_plane.device.manufacturer # (str) Inscopix, Inc.
+# EventAmplitude.rois.table.to_dataframe() # (DataFrame) Convert to a pandas DataFrame with 6 rows and 1 columns
+# EventAmplitude.rois.table.to_dataframe().head() # (DataFrame) Show the first few rows of the pandas DataFrame
+EventAmplitude.rois.table.image_mask # (VectorData) Image masks for each ROI
+Fluorescence = data_interfaces["Fluorescence"]
+Fluorescence # (Fluorescence)
+Fluorescence.roi_response_series # (LabelledDict)
+roi_response_series = Fluorescence.roi_response_series
+RoiResponseSeries = roi_response_series["RoiResponseSeries"]
+RoiResponseSeries # (RoiResponseSeries)
+RoiResponseSeries.starting_time # (float64) 0.0
+RoiResponseSeries.rate # (float64) 10.0
+RoiResponseSeries.resolution # (float64) -1.0
+RoiResponseSeries.comments # (str) no comments
+RoiResponseSeries.description # (str) Fluorescence data associated with spatial footprints
+RoiResponseSeries.conversion # (float64) 1.0
+RoiResponseSeries.offset # (float64) 0.0
+RoiResponseSeries.unit # (str) fluorescence
+RoiResponseSeries.data # (Dataset) shape (6026, 6); dtype float32
+# RoiResponseSeries.data[:, :] # Access all data
+# RoiResponseSeries.data[0:n, :] # Access first n rows
+# RoiResponseSeries.data[:, 0:n] # Access first n columns
+RoiResponseSeries.starting_time_unit # (str) seconds
+RoiResponseSeries.rois # (DynamicTableRegion)
+RoiResponseSeries.rois.description # (str) ROIs
+RoiResponseSeries.rois.table # (PlaneSegmentation)
+RoiResponseSeries.rois.table.description # (str) Footprints of individual cells obtained by segmenting the field of view
+RoiResponseSeries.rois.table.colnames # (tuple) ['image_mask']
+RoiResponseSeries.rois.table.columns # (tuple)
+RoiResponseSeries.rois.table.reference_images # (list)
+RoiResponseSeries.rois.table.id # (ElementIdentifiers)
+RoiResponseSeries.rois.table.imaging_plane # (ImagingPlane)
+RoiResponseSeries.rois.table.imaging_plane.optical_channel # (list)
+RoiResponseSeries.rois.table.imaging_plane.description # (str) The plane being imaged by the miniscope
+RoiResponseSeries.rois.table.imaging_plane.excitation_lambda # (float64) 475.0
+RoiResponseSeries.rois.table.imaging_plane.imaging_rate # (float64) 10.0
+RoiResponseSeries.rois.table.imaging_plane.indicator # (str) N/A
+RoiResponseSeries.rois.table.imaging_plane.location # (str) N/A
+RoiResponseSeries.rois.table.imaging_plane.conversion # (float) 1.0
+RoiResponseSeries.rois.table.imaging_plane.unit # (str) meters
+RoiResponseSeries.rois.table.imaging_plane.origin_coords_unit # (str) meters
+RoiResponseSeries.rois.table.imaging_plane.grid_spacing_unit # (str) meters
+RoiResponseSeries.rois.table.imaging_plane.device # (Device)
+RoiResponseSeries.rois.table.imaging_plane.device.description # (str) NVista3
+RoiResponseSeries.rois.table.imaging_plane.device.manufacturer # (str) Inscopix, Inc.
+# RoiResponseSeries.rois.table.to_dataframe() # (DataFrame) Convert to a pandas DataFrame with 6 rows and 1 columns
+# RoiResponseSeries.rois.table.to_dataframe().head() # (DataFrame) Show the first few rows of the pandas DataFrame
+RoiResponseSeries.rois.table.image_mask # (VectorData) Image masks for each ROI
+ImageSegmentation = data_interfaces["ImageSegmentation"]
+ImageSegmentation # (ImageSegmentation)
+ImageSegmentation.plane_segmentations # (LabelledDict)
+plane_segmentations = ImageSegmentation.plane_segmentations
+PlaneSegmentation = plane_segmentations["PlaneSegmentation"]
+PlaneSegmentation # (PlaneSegmentation)
+PlaneSegmentation.description # (str) Footprints of individual cells obtained by segmenting the field of view
+PlaneSegmentation.colnames # (tuple) ['image_mask']
+PlaneSegmentation.columns # (tuple)
+PlaneSegmentation.reference_images # (list)
+PlaneSegmentation.id # (ElementIdentifiers)
+PlaneSegmentation.imaging_plane # (ImagingPlane)
+PlaneSegmentation.imaging_plane.optical_channel # (list)
+PlaneSegmentation.imaging_plane.description # (str) The plane being imaged by the miniscope
+PlaneSegmentation.imaging_plane.excitation_lambda # (float64) 475.0
+PlaneSegmentation.imaging_plane.imaging_rate # (float64) 10.0
+PlaneSegmentation.imaging_plane.indicator # (str) N/A
+PlaneSegmentation.imaging_plane.location # (str) N/A
+PlaneSegmentation.imaging_plane.conversion # (float) 1.0
+PlaneSegmentation.imaging_plane.unit # (str) meters
+PlaneSegmentation.imaging_plane.origin_coords_unit # (str) meters
+PlaneSegmentation.imaging_plane.grid_spacing_unit # (str) meters
+PlaneSegmentation.imaging_plane.device # (Device)
+PlaneSegmentation.imaging_plane.device.description # (str) NVista3
+PlaneSegmentation.imaging_plane.device.manufacturer # (str) Inscopix, Inc.
+# PlaneSegmentation.to_dataframe() # (DataFrame) Convert to a pandas DataFrame with 6 rows and 1 columns
+# PlaneSegmentation.to_dataframe().head() # (DataFrame) Show the first few rows of the pandas DataFrame
+PlaneSegmentation.image_mask # (VectorData) Image masks for each ROI
+nwb.devices # (LabelledDict)
+devices = nwb.devices
+Miniscope = devices["Miniscope"]
+Miniscope # (Device)
+Miniscope.description # (str) NVista3
+Miniscope.manufacturer # (str) Inscopix, Inc.
+nwb.imaging_planes # (LabelledDict)
+imaging_planes = nwb.imaging_planes
+ImagingPlane = imaging_planes["ImagingPlane"]
+ImagingPlane # (ImagingPlane)
+ImagingPlane.optical_channel # (list)
+ImagingPlane.description # (str) The plane being imaged by the miniscope
+ImagingPlane.excitation_lambda # (float64) 475.0
+ImagingPlane.imaging_rate # (float64) 10.0
+ImagingPlane.indicator # (str) N/A
+ImagingPlane.location # (str) N/A
+ImagingPlane.conversion # (float) 1.0
+ImagingPlane.unit # (str) meters
+ImagingPlane.origin_coords_unit # (str) meters
+ImagingPlane.grid_spacing_unit # (str) meters
+ImagingPlane.device # (Device)
+ImagingPlane.device.description # (str) NVista3
+ImagingPlane.device.manufacturer # (str) Inscopix, Inc.
+nwb.subject # (Subject)
+nwb.subject.age # (str) P5Y
+nwb.subject.age__reference # (str) birth
+nwb.subject.sex # (str) F
+nwb.subject.species # (str) Macaca mulatta
+nwb.subject.subject_id # (str) F
+
+=========================================
+
+Using model: google/gemini-2.5-pro-preview-03-25
+Num. messages in conversation: 8
+Submitting completion request...
+Processing response...
+I have all the necessary information (Dandiset metadata, asset list, and NWB file info including example code for loading data). I can now proceed with step 5, which is to write the content of the notebook to `notebook.py`.
+The notebook structure will be:
+- Title
+- Disclaimer
+- Dandiset overview and link
+- Notebook summary
+- Required packages
+- Loading Dandiset (using DANDI API)
+- Loading a specific NWB file (using the asset ID and URL determined earlier)
+  - Explanation of the file choice
+  - Link to Neurosift
+- Summarize NWB file contents (markdown)
+- Load and visualize some `OnePhotonSeries` data (e.g., a few frames)
+- Load and visualize some `RoiResponseSeries` data (e.g., fluorescence traces for a few ROIs)
+- Load and visualize `image_mask` data from `PlaneSegmentation` (e.g., overlay of masks)
+- Summary of findings and future directions.
+
+I will use the provided `tools_cli.py` output for the NWB file loading and data access patterns.
+The chosen NWB file is `sub-F/sub-F_ses-20240213T110430_ophys.nwb` with asset ID `193fee16-550e-4a8f-aab8-2383f6d57a03` and URL `https://api.dandiarchive.org/api/assets/193fee16-550e-4a8f-aab8-2383f6d57a03/download/`.
+
+Tool: write_to_file
+Params: {'path': 'notebook.py', 'content': '# %% [markdown]\n# # Exploring Dandiset 001174: Calcium imaging in SMA and M1 of macaques\n#\n# **Disclaimer:** This notebook was AI-generated and has not been fully verified. Please be cautious when interpreting the code or results. Consult the original dataset and related publications for definitive information.\n\n# %% [markdown]\n# ## Overview of the Dandiset\n#\n# This notebook explores Dandiset [001174](https://dandiarchive.org/dandiset/001174/0.250331.2218), titled "Calcium imaging in SMA and M1 of macaques".\n#\n# **Description from DANDI:** The study of motor cortices in non-human primates is relevant to our understanding of human motor control, both in healthy conditions and in movement disorders. Calcium imaging and miniature microscopes allow the study of multiple genetically identified neurons with excellent spatial resolution. We used this method to examine activity patterns of projection neurons in deep layers of the supplementary motor (SMA) and primary motor areas (M1) in four rhesus macaques. We implanted gradient index lenses and expressed GCaMP6f to image calcium transients while the animals were at rest or engaged in an arm reaching task. We tracked the activity of SMA and M1 neurons across conditions, examined cell pairs for synchronous activity, and assessed whether SMA and M1 neuronal activation followed specific sequential activation patterns. We demonstrate the value of in vivo calcium imaging for studying patterns of activity in groups of corticofugal neurons in SMA and M1.\n#\n# **Citation:** Galvan, Adriana; Martel, Anne-Caroline; Pittard, Damien; Devergnas, Annaelle; Risk, Benjamin; Nassi, Jonathan J.; Yu, Waylin; Downer, Joshua D. ; Wichmann, Thomas (2025) Calcium imaging in SMA and M1 of macaques (Version 0.250331.2218) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001174/0.250331.2218\n#\n# **Keywords:** One-photon calcium imaging, non-human primates, microendoscope, reaching task, neuronal coactivation, calcium sensors, GCaMP, GRIN lens\n\n# %% [markdown]\n# ## Notebook Summary\n#\n# This notebook will cover the following:\n#\n# 1.  **Listing Required Packages:** Essential Python libraries for running the notebook.\n# 2.  **Loading the Dandiset:** How to connect to the DANDI archive and access Dandiset 001174.\n# 3.  **Exploring NWB File Contents:** Loading a specific NWB file from the Dandiset and examining its metadata and structure.\n# 4.  **Data Visualization:** Examples of how to load and visualize different types of data within the NWB file, including:\n#     *   Raw imaging data (OnePhotonSeries)\n#     *   ROI fluorescence traces (RoiResponseSeries)\n#     *   ROI spatial footprints (image masks)\n# 5.  **Summary and Future Directions:** A brief recap and suggestions for further analysis.\n\n# %% [markdown]\n# ## Required Packages\n#\n# The following Python packages are required to run this notebook. It is assumed they are already installed on your system.\n#\n# *   `dandi` (for interacting with the DANDI Archive)\n# *   `pynwb` (for reading NWB files)\n# *   `h5py` (for interacting with HDF5 files, used by NWB)\n# *   `remfile` (for streaming remote HDF5 files)\n# *   `numpy` (for numerical operations)\n# *   `matplotlib` (for plotting)\n# *   `seaborn` (for enhanced plotting styles)\n# *   `pandas` (for data manipulation, particularly for table-like data from NWB)\n\n# %% [markdown]\n# ## 1. Loading the Dandiset using the DANDI API\n\n# %%\nfrom itertools import islice\nfrom dandi.dandiapi import DandiAPIClient\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport seaborn as sns\nimport pynwb\nimport h5py\nimport remfile\nimport pandas as pd\n\n# Connect to DANDI archive\nclient = DandiAPIClient()\ndandiset_id = "001174"\ndandiset_version = "0.250331.2218"\ndandiset_url_web = f"https://dandiarchive.org/dandiset/{dandiset_id}/{dandiset_version}"\n\ndandiset = client.get_dandiset(dandiset_id, dandiset_version)\n\n# Print basic information about the Dandiset\nmetadata = dandiset.get_raw_metadata()\nprint(f"Dandiset name: {metadata[\'name\']}")\nprint(f"Dandiset URL: {dandiset_url_web}") # Using the web URL for display\nprint(f"Dandiset Description: {metadata.get(\'description\', \'N/A\')}")\n\n# List some assets in the Dandiset\nassets = dandiset.get_assets()\nprint("\\nFirst 5 assets:")\nfor asset in islice(assets, 5):\n    print(f"- {asset.path} (ID: {asset.identifier})")\n\n# %% [markdown]\n# ## 2. Loading and Exploring an NWB File\n#\n# We will now load one specific NWB file from the Dandiset to explore its contents.\n#\n# **Selected File:** For this demonstration, we will use the file with path `sub-F/sub-F_ses-20240213T110430_ophys.nwb`.\n# Its asset ID is `193fee16-550e-4a8f-aab8-2383f6d57a03`.\n#\n# The URL for this asset, used for direct download or remote access, is:\n# `https://api.dandiarchive.org/api/assets/193fee16-550e-4a8f-aab8-2383f6d57a03/download/`\n#\n# You can explore this NWB file interactively on Neurosift using the following link:\n# [Neurosift Link](https://neurosift.app/nwb?url=https://api.dandiarchive.org/api/assets/193fee16-550e-4a8f-aab8-2383f6d57a03/download/&dandisetId=001174&dandisetVersion=draft)\n\n# %%\n# Load the NWB file\n# The URL is hard-coded based on the `tools_cli.py nwb-file-info` output for a specific asset.\nnwb_file_url = "https://api.dandiarchive.org/api/assets/193fee16-550e-4a8f-aab8-2383f6d57a03/download/"\n\nprint(f"Loading NWB file from: {nwb_file_url}")\n\nremote_file = remfile.File(nwb_file_url)\nh5_file = h5py.File(remote_file, \'r\') # Ensure read-only mode\nio = pynwb.NWBHDF5IO(file=h5_file, mode=\'r\') # Ensure read-only mode for NWBHDF5IO\nnwb = io.read()\n\nprint("\\nNWB File Loaded Successfully.")\nprint(f"Identifier: {nwb.identifier}")\nprint(f"Session Description: {nwb.session_description}")\nprint(f"Session Start Time: {nwb.session_start_time}")\nprint(f"Subject ID: {nwb.subject.subject_id if nwb.subject else \'N/A\'}")\n\n# %% [markdown]\n# ### Summary of the NWB File Contents\n#\n# Let\'s examine the structure of this NWB file.\n#\n# The NWB file contains several key groups:\n#\n# *   **`acquisition`**: Raw acquired data.\n#     *   `OnePhotonSeries`: Contains the raw 1-photon calcium imaging movie.\n#         *   `data`: A 3D array (time, height, width) of imaging data.\n#         *   `imaging_plane`: Information about the imaged plane.\n# *   **`processing`**: Processed data.\n#     *   `ophys`: Optical physiology processed data.\n#         *   `ImageSegmentation`: Contains information about segmented regions of interest (ROIs).\n#             *   `PlaneSegmentation`: Detailed segmentation data, including `image_mask` for each ROI.\n#         *   `Fluorescence`: Contains fluorescence traces for each ROI.\n#             *   `RoiResponseSeries`: Time series data of fluorescence for each ROI.\n#         *   `EventAmplitude`: Amplitude of detected neural events (if available).\n#             *   `RoiResponseSeries`: Time series data of event amplitudes for each ROI.\n# *   **`devices`**: Information about devices used.\n# *   **`imaging_planes`**: Detailed information about the imaging planes.\n# *   **`subject`**: Information about the subject.\n\n# %% [markdown]\n# ### 3. Visualizing Data from the NWB File\n#\n# Now, let\'s visualize some of the data streams.\n#\n# #### 3.1 OnePhotonSeries Data (Raw Imaging Movie)\n#\n# This contains the raw imaging data. It\'s a large dataset, so we\'ll only load and display a few frames.\n\n# %%\none_photon_series = nwb.acquisition.get("OnePhotonSeries")\n\nif one_photon_series:\n    print("OnePhotonSeries found.")\n    print(f"Data shape: {one_photon_series.data.shape}") # (time, height, width)\n    print(f"Data dtype: {one_photon_series.data.dtype}")\n    print(f"Imaging rate: {one_photon_series.rate} Hz")\n\n    # Display a few frames. Let\'s pick 3 frames spread out in time.\n    # Be careful with indexing large remote datasets.\n    num_frames_total = one_photon_series.data.shape[0]\n    frame_indices_to_show = [0, num_frames_total // 2, num_frames_total - 1]\n\n    # Ensure indices are within bounds if the dataset is very small\n    frame_indices_to_show = [min(idx, num_frames_total -1) for idx in frame_indices_to_show if idx < num_frames_total]\n    if not frame_indices_to_show and num_frames_total > 0: # if all indices were too large, just show the first\n        frame_indices_to_show = [0]\n    \n    if frame_indices_to_show:\n        fig, axes = plt.subplots(1, len(frame_indices_to_show), figsize=(5 * len(frame_indices_to_show), 5))\n        if len(frame_indices_to_show) == 1: # if only one frame, axes is not a list\n            axes = [axes]\n        \n        for i, frame_idx in enumerate(frame_indices_to_show):\n            # Load a single frame: data[frame_idx, :, :]\n            # It\'s important to load only what\'s needed from the remote file.\n            frame_data = one_photon_series.data[frame_idx, :, :]\n            ax = axes[i]\n            img = ax.imshow(frame_data, cmap=\'gray\', aspect=\'auto\')\n            ax.set_title(f"Frame {frame_idx}")\n            ax.set_xlabel("X pixel")\n            ax.set_ylabel("Y pixel")\n            plt.colorbar(img, ax=ax, fraction=0.046, pad=0.04)\n        plt.suptitle("Sample Frames from OnePhotonSeries")\n        plt.tight_layout(rect=[0, 0, 1, 0.96]) # Adjust layout to make space for suptitle\n        plt.show()\n    else:\n        print("No frames to display from OnePhotonSeries (dataset might be empty or very small).")\nelse:\n    print("OnePhotonSeries not found in acquisition.")\n\n# %% [markdown]\n# The plots above show three sample frames from the `OnePhotonSeries` raw imaging data: the first, middle, and last frame. This gives a glimpse into the field of view and the nature of the calcium imaging movie.\n\n# %% [markdown]\n# #### 3.2 Fluorescence Traces (RoiResponseSeries)\n#\n# Next, let\'s look at the fluorescence traces for a few ROIs. This data is typically found in `nwb.processing[\'ophys\'][\'Fluorescence\'][\'RoiResponseSeries\']`.\n\n# %%\nsns.set_theme() # Apply seaborn styling for line plots\n\nfluorescence_module = nwb.processing.get("ophys")\nif fluorescence_module and "Fluorescence" in fluorescence_module.data_interfaces:\n    roi_response_series_fluorescence = fluorescence_module.data_interfaces["Fluorescence"].roi_response_series.get("RoiResponseSeries")\n    if roi_response_series_fluorescence:\n        print("RoiResponseSeries (Fluorescence) found.")\n        print(f"Data shape: {roi_response_series_fluorescence.data.shape}") # (time, num_rois)\n        print(f"Data dtype: {roi_response_series_fluorescence.data.dtype}")\n        print(f"Sampling rate: {roi_response_series_fluorescence.rate} Hz")\n\n        num_rois = roi_response_series_fluorescence.data.shape[1]\n        rois_to_plot = min(num_rois, 3) # Plot up to 3 ROIs\n\n        if rois_to_plot > 0:\n            # Get ROI IDs\n            # The rois are linked to a PlaneSegmentation table which has ROI IDs\n            plane_segmentation_fluorescence = roi_response_series_fluorescence.rois.table\n            roi_ids_fluorescence = plane_segmentation_fluorescence.id[:] # Load all ROI IDs\n\n            # Select some data to plot. Let\'s take the first 500 time points for the selected ROIs.\n            # This avoids loading the entire dataset, which can be large.\n            num_timepoints_to_plot = min(500, roi_response_series_fluorescence.data.shape[0])\n            \n            fluorescence_data_subset = roi_response_series_fluorescence.data[:num_timepoints_to_plot, :rois_to_plot]\n            \n            # Create a time vector for plotting\n            time_vector = np.arange(num_timepoints_to_plot) / roi_response_series_fluorescence.rate\n\n            plt.figure(figsize=(12, 6))\n            for i in range(rois_to_plot):\n                roi_id = roi_ids_fluorescence[i] if i < len(roi_ids_fluorescence) else f"Index {i}"\n                plt.plot(time_vector, fluorescence_data_subset[:, i], label=f"ROI ID {roi_id}")\n            \n            plt.title(f"Fluorescence Traces for First {rois_to_plot} ROIs (First {num_timepoints_to_plot} Timepoints)")\n            plt.xlabel("Time (seconds)")\n            plt.ylabel("Fluorescence (dF/F or arbitrary units)")\n            plt.legend()\n            plt.grid(True)\n            plt.show()\n        else:\n            print("No ROIs to plot in RoiResponseSeries (Fluorescence).")\n    else:\n        print("RoiResponseSeries (Fluorescence) not found.")\nelse:\n    print("Ophys processing module or Fluorescence data interface not found.")\n\n\n# %% [markdown]\n# The plot above shows the fluorescence activity over time for the first few detected ROIs. These traces represent the changes in brightness of individual cells, which are correlated with neural activity. We are showing a subset of the total recording duration (the first 500 timepoints, approximately 50 seconds given a 10Hz sampling rate) to keep the visualization manageable and data loading quick.\n\n# %% [markdown]\n# #### 3.3 ROI Spatial Footprints (Image Masks)\n#\n# The `ImageSegmentation` module contains `PlaneSegmentation`, which in turn holds the `image_mask` for each ROI. These masks define the spatial extent of each detected cell. Let\'s visualize a few of these masks and an overlay.\n\n# %%\n# Revert to default matplotlib style for image plots\nplt.style.use(\'default\')\n\nif fluorescence_module and "ImageSegmentation" in fluorescence_module.data_interfaces:\n    image_segmentation = fluorescence_module.data_interfaces["ImageSegmentation"]\n    if "PlaneSegmentation" in image_segmentation.plane_segmentations:\n        plane_segmentation = image_segmentation.plane_segmentations["PlaneSegmentation"]\n        print("PlaneSegmentation found.")\n        \n        roi_ids = plane_segmentation.id[:]\n        num_rois_ps = len(roi_ids)\n        print(f"Number of ROIs in PlaneSegmentation: {num_rois_ps}")\n\n        if num_rois_ps > 0:\n            # Get the image masks. This is a VectorData object where each element is a 2D mask.\n            # The shape of each mask is (height, width).\n            # We need to access image_mask for each ROI by its index.\n            \n            rois_to_show_masks = min(num_rois_ps, 3) # Show masks for up to 3 ROIs\n            \n            fig_masks, axes_masks = plt.subplots(1, rois_to_show_masks, figsize=(5 * rois_to_show_masks, 5))\n            if rois_to_show_masks == 1:\n                 axes_masks = [axes_masks] # Make it iterable\n\n            all_masks_data = [] # To store masks for overlay\n\n            for i in range(rois_to_show_masks):\n                # plane_segmentation[\'image_mask\'][i] should give the mask for the i-th ROI\n                # Note: `plane_segmentation.image_mask` is a h5py.Dataset of datasets (ragged array)\n                # So we access it as `plane_segmentation[\'image_mask\'][i]` to get the i-th mask data\n                mask_data = plane_segmentation[\'image_mask\'][i] \n                all_masks_data.append(mask_data)\n\n                ax = axes_masks[i]\n                ax.imshow(mask_data, cmap=\'viridis\', aspect=\'auto\')\n                ax.set_title(f"Mask for ROI ID {roi_ids[i]}")\n                ax.set_xlabel("X pixel")\n                ax.set_ylabel("Y pixel")\n            \n            plt.suptitle("Individual ROI Image Masks")\n            plt.tight_layout(rect=[0, 0, 1, 0.96])\n            plt.show()\n\n            # Create an overlay of all loaded masks\n            if all_masks_data:\n                # Assuming all masks have the same dimensions (height, width)\n                # Stack them and take the maximum projection for visualization\n                # If masks have different shapes, this would need more careful handling (e.g. padding)\n                # For this dataset, masks should have consistent dimensions from the same PlaneSegmentation.\n                try:\n                    stacked_masks = np.stack(all_masks_data, axis=0)\n                    overlay_mask = np.max(stacked_masks, axis=0)\n                    \n                    plt.figure(figsize=(8, 6))\n                    plt.imshow(overlay_mask, cmap=\'hot\', aspect=\'auto\') # \'hot\' often works well for overlays\n                    plt.title(f"Overlay of First {rois_to_show_masks} ROI Masks (Max Projection)")\n                    plt.xlabel("X pixel")\n                    plt.ylabel("Y pixel")\n                    plt.colorbar(label="Max Mask Value")\n                    plt.show()\n                except ValueError as e:\n                    print(f"Could not stack masks for overlay, likely due to differing shapes: {e}")\n                    print("Individual mask shapes:")\n                    for i, m in enumerate(all_masks_data):\n                        print(f"Mask {i} (ROI ID {roi_ids[i]}): shape {m.shape}")\n\n\n        else:\n            print("No ROIs found in PlaneSegmentation to display masks.")\n    else:\n        print("PlaneSegmentation not found in ImageSegmentation.")\nelse:\n    print("Ophys processing module or ImageSegmentation data interface not found.")\n\n# %% [markdown]\n# The figures above display the spatial footprints (image masks) for the first few ROIs. Each mask highlights the pixels corresponding to a detected cell. The final plot shows an overlay of these masks, giving an idea of their relative positions in the field of view. The values in these masks typically range from 0 to 1, indicating the contribution of each pixel to the ROI.\n\n# %% [markdown]\n# #### 3.4 Event Amplitudes (RoiResponseSeries)\n#\n# Some NWB files might also contain `EventAmplitude` data, representing detected neural events. Let\'s check for this and plot if available.\n\n# %%\nsns.set_theme() # Apply seaborn styling for line plots\n\nif fluorescence_module and "EventAmplitude" in fluorescence_module.data_interfaces:\n    roi_response_series_event_amp = fluorescence_module.data_interfaces["EventAmplitude"] # This is already the RoiResponseSeries\n    if roi_response_series_event_amp: # Checking if it\'s not None\n        print("RoiResponseSeries (EventAmplitude) found.")\n        print(f"Data shape: {roi_response_series_event_amp.data.shape}") # (time, num_rois)\n        print(f"Data dtype: {roi_response_series_event_amp.data.dtype}")\n        print(f"Sampling rate: {roi_response_series_event_amp.rate} Hz")\n\n        num_rois_ea = roi_response_series_event_amp.data.shape[1]\n        rois_to_plot_ea = min(num_rois_ea, 3)\n\n        if rois_to_plot_ea > 0:\n            plane_segmentation_event_amp = roi_response_series_event_amp.rois.table\n            roi_ids_event_amp = plane_segmentation_event_amp.id[:]\n\n            num_timepoints_to_plot_ea = min(500, roi_response_series_event_amp.data.shape[0])\n            event_amp_data_subset = roi_response_series_event_amp.data[:num_timepoints_to_plot_ea, :rois_to_plot_ea]\n            \n            time_vector_ea = np.arange(num_timepoints_to_plot_ea) / roi_response_series_event_amp.rate\n\n            plt.figure(figsize=(12, 6))\n            for i in range(rois_to_plot_ea):\n                roi_id_ea = roi_ids_event_amp[i] if i < len(roi_ids_event_amp) else f"Index {i}"\n                plt.plot(time_vector_ea, event_amp_data_subset[:, i], label=f"ROI ID {roi_id_ea}")\n            \n            plt.title(f"Event Amplitudes for First {rois_to_plot_ea} ROIs (First {num_timepoints_to_plot_ea} Timepoints)")\n            plt.xlabel("Time (seconds)")\n            plt.ylabel("Event Amplitude (e.g., dF/F)")\n            plt.legend()\n            plt.grid(True)\n            plt.show()\n        else:\n            print("No ROIs to plot in RoiResponseSeries (EventAmplitude).")\n    else:\n        print("RoiResponseSeries (EventAmplitude) not found or is None.")\nelse:\n    print("Ophys processing module or EventAmplitude data interface not found.")\n\n# %% [markdown]\n# The plot above shows detected event amplitudes for the first few ROIs, if this data is present in the NWB file. These events often correspond to significant calcium transients, indicative of neural firing. Similar to the fluorescence traces, we are showing a subset of the data.\n\n# %% [markdown]\n# ## 4. Summary and Future Directions\n#\n# This notebook demonstrated how to:\n# 1.  Connect to the DANDI Archive and retrieve information about a Dandiset.\n# 2.  Load a specific NWB file from the Dandiset using its remote URL.\n# 3.  Inspect the basic metadata and structure of the NWB file.\n# 4.  Access and visualize key data types:\n#     *   Raw imaging data from `OnePhotonSeries`.\n#     *   Fluorescence traces from `RoiResponseSeries` under the `Fluorescence` module.\n#     *   Spatial ROI masks from `PlaneSegmentation` under the `ImageSegmentation` module.\n#     *   Event amplitudes from `RoiResponseSeries` under the `EventAmplitude` module (if available).\n#\n# **Future Directions for Analysis:**\n#\n# Users can expand on this notebook by:\n# *   Exploring other NWB files within the Dandiset, potentially comparing data across different subjects or sessions.\n# *   Performing more detailed quantitative analysis of the fluorescence traces, such as event detection, correlation analysis between ROIs, or relating neural activity to behavioral events (if behavior data is available and linked).\n# *   Analyzing the properties of the ROI masks (e.g., size, shape, distribution).\n# *   If dealing with data from reaching tasks (as mentioned in the Dandiset description), one could align neural activity to specific task epochs.\n# *   Exploring the full dataset rather than just subsets, keeping in mind computational and memory constraints, especially when working with remote files.\n# *   Consulting the original publication associated with the Dandiset for specific hypotheses and analysis methods used by the data creators.\n\n# %% [markdown]\n# ### Closing Remarks\n#\n# Remember to close the HDF5 file and the remote file connection if you are done with them, especially in scripts, to free up resources. In an interactive notebook session like this, it\'s often handled when the kernel shuts down, but explicit closing is good practice.\n\n# %%\n# Clean up: close the NWB I/O, HDF5 file, and remfile\n# This is important for releasing file handles and resources.\ntry:\n    io.close()\n    # h5_file is managed by NWBHDF5IO, but remfile should be closed if used directly\n    # However, h5_file here is the HDF5 file object opened on the remfile.\n    # Closing the io object should handle closing h5_file as well.\n    # remote_file.close() # If remfile was used to *download* or if h5_file was closed separately\n    # In this case, pynwb.NWBHDF5IO takes ownership of the h5py.File object.\n    # The h5py.File object holds a reference to the remfile.File object.\n    # Closing the NWBHDF5IO object should close the h5py.File object,\n    # which in turn should allow the remfile.File object to be garbage collected and closed.\n    # Explicitly:\n    if hasattr(h5_file, \'close\') and callable(h5_file.close):\n         if h5_file.id.valid: # Check if file is open before trying to close\n            h5_file.close()\n    if hasattr(remote_file, \'close\') and callable(remote_file.close):\n        remote_file.close()\n    print("NWB file, HDF5 file, and remote file handles closed (or prepared for garbage collection).")\nexcept Exception as e:\n    print(f"Error during cleanup: {e}")\n\n\n# %%\nprint("Notebook execution completed.")'}
+================================
+Content to be written to notebook.py:
+# %% [markdown]
+# # Exploring Dandiset 001174: Calcium imaging in SMA and M1 of macaques
+#
+# **Disclaimer:** This notebook was AI-generated and has not been fully verified. Please be cautious when interpreting the code or results. Consult the original dataset and related publications for definitive information.
+
+# %% [markdown]
+# ## Overview of the Dandiset
+#
+# This notebook explores Dandiset [001174](https://dandiarchive.org/dandiset/001174/0.250331.2218), titled "Calcium imaging in SMA and M1 of macaques".
+#
+# **Description from DANDI:** The study of motor cortices in non-human primates is relevant to our understanding of human motor control, both in healthy conditions and in movement disorders. Calcium imaging and miniature microscopes allow the study of multiple genetically identified neurons with excellent spatial resolution. We used this method to examine activity patterns of projection neurons in deep layers of the supplementary motor (SMA) and primary motor areas (M1) in four rhesus macaques. We implanted gradient index lenses and expressed GCaMP6f to image calcium transients while the animals were at rest or engaged in an arm reaching task. We tracked the activity of SMA and M1 neurons across conditions, examined cell pairs for synchronous activity, and assessed whether SMA and M1 neuronal activation followed specific sequential activation patterns. We demonstrate the value of in vivo calcium imaging for studying patterns of activity in groups of corticofugal neurons in SMA and M1.
+#
+# **Citation:** Galvan, Adriana; Martel, Anne-Caroline; Pittard, Damien; Devergnas, Annaelle; Risk, Benjamin; Nassi, Jonathan J.; Yu, Waylin; Downer, Joshua D. ; Wichmann, Thomas (2025) Calcium imaging in SMA and M1 of macaques (Version 0.250331.2218) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001174/0.250331.2218
+#
+# **Keywords:** One-photon calcium imaging, non-human primates, microendoscope, reaching task, neuronal coactivation, calcium sensors, GCaMP, GRIN lens
+
+# %% [markdown]
+# ## Notebook Summary
+#
+# This notebook will cover the following:
+#
+# 1.  **Listing Required Packages:** Essential Python libraries for running the notebook.
+# 2.  **Loading the Dandiset:** How to connect to the DANDI archive and access Dandiset 001174.
+# 3.  **Exploring NWB File Contents:** Loading a specific NWB file from the Dandiset and examining its metadata and structure.
+# 4.  **Data Visualization:** Examples of how to load and visualize different types of data within the NWB file, including:
+#     *   Raw imaging data (OnePhotonSeries)
+#     *   ROI fluorescence traces (RoiResponseSeries)
+#     *   ROI spatial footprints (image masks)
+# 5.  **Summary and Future Directions:** A brief recap and suggestions for further analysis.
+
+# %% [markdown]
+# ## Required Packages
+#
+# The following Python packages are required to run this notebook. It is assumed they are already installed on your system.
+#
+# *   `dandi` (for interacting with the DANDI Archive)
+# *   `pynwb` (for reading NWB files)
+# *   `h5py` (for interacting with HDF5 files, used by NWB)
+# *   `remfile` (for streaming remote HDF5 files)
+# *   `numpy` (for numerical operations)
+# *   `matplotlib` (for plotting)
+# *   `seaborn` (for enhanced plotting styles)
+# *   `pandas` (for data manipulation, particularly for table-like data from NWB)
+
+# %% [markdown]
+# ## 1. Loading the Dandiset using the DANDI API
+
+# %%
+from itertools import islice
+from dandi.dandiapi import DandiAPIClient
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pynwb
+import h5py
+import remfile
+import pandas as pd
+
+# Connect to DANDI archive
+client = DandiAPIClient()
+dandiset_id = "001174"
+dandiset_version = "0.250331.2218"
+dandiset_url_web = f"https://dandiarchive.org/dandiset/{dandiset_id}/{dandiset_version}"
+
+dandiset = client.get_dandiset(dandiset_id, dandiset_version)
+
+# Print basic information about the Dandiset
+metadata = dandiset.get_raw_metadata()
+print(f"Dandiset name: {metadata['name']}")
+print(f"Dandiset URL: {dandiset_url_web}") # Using the web URL for display
+print(f"Dandiset Description: {metadata.get('description', 'N/A')}")
+
+# List some assets in the Dandiset
+assets = dandiset.get_assets()
+print("\nFirst 5 assets:")
+for asset in islice(assets, 5):
+    print(f"- {asset.path} (ID: {asset.identifier})")
+
+# %% [markdown]
+# ## 2. Loading and Exploring an NWB File
+#
+# We will now load one specific NWB file from the Dandiset to explore its contents.
+#
+# **Selected File:** For this demonstration, we will use the file with path `sub-F/sub-F_ses-20240213T110430_ophys.nwb`.
+# Its asset ID is `193fee16-550e-4a8f-aab8-2383f6d57a03`.
+#
+# The URL for this asset, used for direct download or remote access, is:
+# `https://api.dandiarchive.org/api/assets/193fee16-550e-4a8f-aab8-2383f6d57a03/download/`
+#
+# You can explore this NWB file interactively on Neurosift using the following link:
+# [Neurosift Link](https://neurosift.app/nwb?url=https://api.dandiarchive.org/api/assets/193fee16-550e-4a8f-aab8-2383f6d57a03/download/&dandisetId=001174&dandisetVersion=draft)
+
+# %%
+# Load the NWB file
+# The URL is hard-coded based on the `tools_cli.py nwb-file-info` output for a specific asset.
+nwb_file_url = "https://api.dandiarchive.org/api/assets/193fee16-550e-4a8f-aab8-2383f6d57a03/download/"
+
+print(f"Loading NWB file from: {nwb_file_url}")
+
+remote_file = remfile.File(nwb_file_url)
+h5_file = h5py.File(remote_file, 'r') # Ensure read-only mode
+io = pynwb.NWBHDF5IO(file=h5_file, mode='r') # Ensure read-only mode for NWBHDF5IO
+nwb = io.read()
+
+print("\nNWB File Loaded Successfully.")
+print(f"Identifier: {nwb.identifier}")
+print(f"Session Description: {nwb.session_description}")
+print(f"Session Start Time: {nwb.session_start_time}")
+print(f"Subject ID: {nwb.subject.subject_id if nwb.subject else 'N/A'}")
+
+# %% [markdown]
+# ### Summary of the NWB File Contents
+#
+# Let's examine the structure of this NWB file.
+#
+# The NWB file contains several key groups:
+#
+# *   **`acquisition`**: Raw acquired data.
+#     *   `OnePhotonSeries`: Contains the raw 1-photon calcium imaging movie.
+#         *   `data`: A 3D array (time, height, width) of imaging data.
+#         *   `imaging_plane`: Information about the imaged plane.
+# *   **`processing`**: Processed data.
+#     *   `ophys`: Optical physiology processed data.
+#         *   `ImageSegmentation`: Contains information about segmented regions of interest (ROIs).
+#             *   `PlaneSegmentation`: Detailed segmentation data, including `image_mask` for each ROI.
+#         *   `Fluorescence`: Contains fluorescence traces for each ROI.
+#             *   `RoiResponseSeries`: Time series data of fluorescence for each ROI.
+#         *   `EventAmplitude`: Amplitude of detected neural events (if available).
+#             *   `RoiResponseSeries`: Time series data of event amplitudes for each ROI.
+# *   **`devices`**: Information about devices used.
+# *   **`imaging_planes`**: Detailed information about the imaging planes.
+# *   **`subject`**: Information about the subject.
+
+# %% [markdown]
+# ### 3. Visualizing Data from the NWB File
+#
+# Now, let's visualize some of the data streams.
+#
+# #### 3.1 OnePhotonSeries Data (Raw Imaging Movie)
+#
+# This contains the raw imaging data. It's a large dataset, so we'll only load and display a few frames.
+
+# %%
+one_photon_series = nwb.acquisition.get("OnePhotonSeries")
+
+if one_photon_series:
+    print("OnePhotonSeries found.")
+    print(f"Data shape: {one_photon_series.data.shape}") # (time, height, width)
+    print(f"Data dtype: {one_photon_series.data.dtype}")
+    print(f"Imaging rate: {one_photon_series.rate} Hz")
+
+    # Display a few frames. Let's pick 3 frames spread out in time.
+    # Be careful with indexing large remote datasets.
+    num_frames_total = one_photon_series.data.shape[0]
+    frame_indices_to_show = [0, num_frames_total // 2, num_frames_total - 1]
+
+    # Ensure indices are within bounds if the dataset is very small
+    frame_indices_to_show = [min(idx, num_frames_total -1) for idx in frame_indices_to_show if idx < num_frames_total]
+    if not frame_indices_to_show and num_frames_total > 0: # if all indices were too large, just show the first
+        frame_indices_to_show = [0]
+    
+    if frame_indices_to_show:
+        fig, axes = plt.subplots(1, len(frame_indices_to_show), figsize=(5 * len(frame_indices_to_show), 5))
+        if len(frame_indices_to_show) == 1: # if only one frame, axes is not a list
+            axes = [axes]
+        
+        for i, frame_idx in enumerate(frame_indices_to_show):
+            # Load a single frame: data[frame_idx, :, :]
+            # It's important to load only what's needed from the remote file.
+            frame_data = one_photon_series.data[frame_idx, :, :]
+            ax = axes[i]
+            img = ax.imshow(frame_data, cmap='gray', aspect='auto')
+            ax.set_title(f"Frame {frame_idx}")
+            ax.set_xlabel("X pixel")
+            ax.set_ylabel("Y pixel")
+            plt.colorbar(img, ax=ax, fraction=0.046, pad=0.04)
+        plt.suptitle("Sample Frames from OnePhotonSeries")
+        plt.tight_layout(rect=[0, 0, 1, 0.96]) # Adjust layout to make space for suptitle
+        plt.show()
+    else:
+        print("No frames to display from OnePhotonSeries (dataset might be empty or very small).")
+else:
+    print("OnePhotonSeries not found in acquisition.")
+
+# %% [markdown]
+# The plots above show three sample frames from the `OnePhotonSeries` raw imaging data: the first, middle, and last frame. This gives a glimpse into the field of view and the nature of the calcium imaging movie.
+
+# %% [markdown]
+# #### 3.2 Fluorescence Traces (RoiResponseSeries)
+#
+# Next, let's look at the fluorescence traces for a few ROIs. This data is typically found in `nwb.processing['ophys']['Fluorescence']['RoiResponseSeries']`.
+
+# %%
+sns.set_theme() # Apply seaborn styling for line plots
+
+fluorescence_module = nwb.processing.get("ophys")
+if fluorescence_module and "Fluorescence" in fluorescence_module.data_interfaces:
+    roi_response_series_fluorescence = fluorescence_module.data_interfaces["Fluorescence"].roi_response_series.get("RoiResponseSeries")
+    if roi_response_series_fluorescence:
+        print("RoiResponseSeries (Fluorescence) found.")
+        print(f"Data shape: {roi_response_series_fluorescence.data.shape}") # (time, num_rois)
+        print(f"Data dtype: {roi_response_series_fluorescence.data.dtype}")
+        print(f"Sampling rate: {roi_response_series_fluorescence.rate} Hz")
+
+        num_rois = roi_response_series_fluorescence.data.shape[1]
+        rois_to_plot = min(num_rois, 3) # Plot up to 3 ROIs
+
+        if rois_to_plot > 0:
+            # Get ROI IDs
+            # The rois are linked to a PlaneSegmentation table which has ROI IDs
+            plane_segmentation_fluorescence = roi_response_series_fluorescence.rois.table
+            roi_ids_fluorescence = plane_segmentation_fluorescence.id[:] # Load all ROI IDs
+
+            # Select some data to plot. Let's take the first 500 time points for the selected ROIs.
+            # This avoids loading the entire dataset, which can be large.
+            num_timepoints_to_plot = min(500, roi_response_series_fluorescence.data.shape[0])
+            
+            fluorescence_data_subset = roi_response_series_fluorescence.data[:num_timepoints_to_plot, :rois_to_plot]
+            
+            # Create a time vector for plotting
+            time_vector = np.arange(num_timepoints_to_plot) / roi_response_series_fluorescence.rate
+
+            plt.figure(figsize=(12, 6))
+            for i in range(rois_to_plot):
+                roi_id = roi_ids_fluorescence[i] if i < len(roi_ids_fluorescence) else f"Index {i}"
+                plt.plot(time_vector, fluorescence_data_subset[:, i], label=f"ROI ID {roi_id}")
+            
+            plt.title(f"Fluorescence Traces for First {rois_to_plot} ROIs (First {num_timepoints_to_plot} Timepoints)")
+            plt.xlabel("Time (seconds)")
+            plt.ylabel("Fluorescence (dF/F or arbitrary units)")
+            plt.legend()
+            plt.grid(True)
+            plt.show()
+        else:
+            print("No ROIs to plot in RoiResponseSeries (Fluorescence).")
+    else:
+        print("RoiResponseSeries (Fluorescence) not found.")
+else:
+    print("Ophys processing module or Fluorescence data interface not found.")
+
+
+# %% [markdown]
+# The plot above shows the fluorescence activity over time for the first few detected ROIs. These traces represent the changes in brightness of individual cells, which are correlated with neural activity. We are showing a subset of the total recording duration (the first 500 timepoints, approximately 50 seconds given a 10Hz sampling rate) to keep the visualization manageable and data loading quick.
+
+# %% [markdown]
+# #### 3.3 ROI Spatial Footprints (Image Masks)
+#
+# The `ImageSegmentation` module contains `PlaneSegmentation`, which in turn holds the `image_mask` for each ROI. These masks define the spatial extent of each detected cell. Let's visualize a few of these masks and an overlay.
+
+# %%
+# Revert to default matplotlib style for image plots
+plt.style.use('default')
+
+if fluorescence_module and "ImageSegmentation" in fluorescence_module.data_interfaces:
+    image_segmentation = fluorescence_module.data_interfaces["ImageSegmentation"]
+    if "PlaneSegmentation" in image_segmentation.plane_segmentations:
+        plane_segmentation = image_segmentation.plane_segmentations["PlaneSegmentation"]
+        print("PlaneSegmentation found.")
+        
+        roi_ids = plane_segmentation.id[:]
+        num_rois_ps = len(roi_ids)
+        print(f"Number of ROIs in PlaneSegmentation: {num_rois_ps}")
+
+        if num_rois_ps > 0:
+            # Get the image masks. This is a VectorData object where each element is a 2D mask.
+            # The shape of each mask is (height, width).
+            # We need to access image_mask for each ROI by its index.
+            
+            rois_to_show_masks = min(num_rois_ps, 3) # Show masks for up to 3 ROIs
+            
+            fig_masks, axes_masks = plt.subplots(1, rois_to_show_masks, figsize=(5 * rois_to_show_masks, 5))
+            if rois_to_show_masks == 1:
+                 axes_masks = [axes_masks] # Make it iterable
+
+            all_masks_data = [] # To store masks for overlay
+
+            for i in range(rois_to_show_masks):
+                # plane_segmentation['image_mask'][i] should give the mask for the i-th ROI
+                # Note: `plane_segmentation.image_mask` is a h5py.Dataset of datasets (ragged array)
+                # So we access it as `plane_segmentation['image_mask'][i]` to get the i-th mask data
+                mask_data = plane_segmentation['image_mask'][i] 
+                all_masks_data.append(mask_data)
+
+                ax = axes_masks[i]
+                ax.imshow(mask_data, cmap='viridis', aspect='auto')
+                ax.set_title(f"Mask for ROI ID {roi_ids[i]}")
+                ax.set_xlabel("X pixel")
+                ax.set_ylabel("Y pixel")
+            
+            plt.suptitle("Individual ROI Image Masks")
+            plt.tight_layout(rect=[0, 0, 1, 0.96])
+            plt.show()
+
+            # Create an overlay of all loaded masks
+            if all_masks_data:
+                # Assuming all masks have the same dimensions (height, width)
+                # Stack them and take the maximum projection for visualization
+                # If masks have different shapes, this would need more careful handling (e.g. padding)
+                # For this dataset, masks should have consistent dimensions from the same PlaneSegmentation.
+                try:
+                    stacked_masks = np.stack(all_masks_data, axis=0)
+                    overlay_mask = np.max(stacked_masks, axis=0)
+                    
+                    plt.figure(figsize=(8, 6))
+                    plt.imshow(overlay_mask, cmap='hot', aspect='auto') # 'hot' often works well for overlays
+                    plt.title(f"Overlay of First {rois_to_show_masks} ROI Masks (Max Projection)")
+                    plt.xlabel("X pixel")
+                    plt.ylabel("Y pixel")
+                    plt.colorbar(label="Max Mask Value")
+                    plt.show()
+                except ValueError as e:
+                    print(f"Could not stack masks for overlay, likely due to differing shapes: {e}")
+                    print("Individual mask shapes:")
+                    for i, m in enumerate(all_masks_data):
+                        print(f"Mask {i} (ROI ID {roi_ids[i]}): shape {m.shape}")
+
+
+        else:
+            print("No ROIs found in PlaneSegmentation to display masks.")
+    else:
+        print("PlaneSegmentation not found in ImageSegmentation.")
+else:
+    print("Ophys processing module or ImageSegmentation data interface not found.")
+
+# %% [markdown]
+# The figures above display the spatial footprints (image masks) for the first few ROIs. Each mask highlights the pixels corresponding to a detected cell. The final plot shows an overlay of these masks, giving an idea of their relative positions in the field of view. The values in these masks typically range from 0 to 1, indicating the contribution of each pixel to the ROI.
+
+# %% [markdown]
+# #### 3.4 Event Amplitudes (RoiResponseSeries)
+#
+# Some NWB files might also contain `EventAmplitude` data, representing detected neural events. Let's check for this and plot if available.
+
+# %%
+sns.set_theme() # Apply seaborn styling for line plots
+
+if fluorescence_module and "EventAmplitude" in fluorescence_module.data_interfaces:
+    roi_response_series_event_amp = fluorescence_module.data_interfaces["EventAmplitude"] # This is already the RoiResponseSeries
+    if roi_response_series_event_amp: # Checking if it's not None
+        print("RoiResponseSeries (EventAmplitude) found.")
+        print(f"Data shape: {roi_response_series_event_amp.data.shape}") # (time, num_rois)
+        print(f"Data dtype: {roi_response_series_event_amp.data.dtype}")
+        print(f"Sampling rate: {roi_response_series_event_amp.rate} Hz")
+
+        num_rois_ea = roi_response_series_event_amp.data.shape[1]
+        rois_to_plot_ea = min(num_rois_ea, 3)
+
+        if rois_to_plot_ea > 0:
+            plane_segmentation_event_amp = roi_response_series_event_amp.rois.table
+            roi_ids_event_amp = plane_segmentation_event_amp.id[:]
+
+            num_timepoints_to_plot_ea = min(500, roi_response_series_event_amp.data.shape[0])
+            event_amp_data_subset = roi_response_series_event_amp.data[:num_timepoints_to_plot_ea, :rois_to_plot_ea]
+            
+            time_vector_ea = np.arange(num_timepoints_to_plot_ea) / roi_response_series_event_amp.rate
+
+            plt.figure(figsize=(12, 6))
+            for i in range(rois_to_plot_ea):
+                roi_id_ea = roi_ids_event_amp[i] if i < len(roi_ids_event_amp) else f"Index {i}"
+                plt.plot(time_vector_ea, event_amp_data_subset[:, i], label=f"ROI ID {roi_id_ea}")
+            
+            plt.title(f"Event Amplitudes for First {rois_to_plot_ea} ROIs (First {num_timepoints_to_plot_ea} Timepoints)")
+            plt.xlabel("Time (seconds)")
+            plt.ylabel("Event Amplitude (e.g., dF/F)")
+            plt.legend()
+            plt.grid(True)
+            plt.show()
+        else:
+            print("No ROIs to plot in RoiResponseSeries (EventAmplitude).")
+    else:
+        print("RoiResponseSeries (EventAmplitude) not found or is None.")
+else:
+    print("Ophys processing module or EventAmplitude data interface not found.")
+
+# %% [markdown]
+# The plot above shows detected event amplitudes for the first few ROIs, if this data is present in the NWB file. These events often correspond to significant calcium transients, indicative of neural firing. Similar to the fluorescence traces, we are showing a subset of the data.
+
+# %% [markdown]
+# ## 4. Summary and Future Directions
+#
+# This notebook demonstrated how to:
+# 1.  Connect to the DANDI Archive and retrieve information about a Dandiset.
+# 2.  Load a specific NWB file from the Dandiset using its remote URL.
+# 3.  Inspect the basic metadata and structure of the NWB file.
+# 4.  Access and visualize key data types:
+#     *   Raw imaging data from `OnePhotonSeries`.
+#     *   Fluorescence traces from `RoiResponseSeries` under the `Fluorescence` module.
+#     *   Spatial ROI masks from `PlaneSegmentation` under the `ImageSegmentation` module.
+#     *   Event amplitudes from `RoiResponseSeries` under the `EventAmplitude` module (if available).
+#
+# **Future Directions for Analysis:**
+#
+# Users can expand on this notebook by:
+# *   Exploring other NWB files within the Dandiset, potentially comparing data across different subjects or sessions.
+# *   Performing more detailed quantitative analysis of the fluorescence traces, such as event detection, correlation analysis between ROIs, or relating neural activity to behavioral events (if behavior data is available and linked).
+# *   Analyzing the properties of the ROI masks (e.g., size, shape, distribution).
+# *   If dealing with data from reaching tasks (as mentioned in the Dandiset description), one could align neural activity to specific task epochs.
+# *   Exploring the full dataset rather than just subsets, keeping in mind computational and memory constraints, especially when working with remote files.
+# *   Consulting the original publication associated with the Dandiset for specific hypotheses and analysis methods used by the data creators.
+
+# %% [markdown]
+# ### Closing Remarks
+#
+# Remember to close the HDF5 file and the remote file connection if you are done with them, especially in scripts, to free up resources. In an interactive notebook session like this, it's often handled when the kernel shuts down, but explicit closing is good practice.
+
+# %%
+# Clean up: close the NWB I/O, HDF5 file, and remfile
+# This is important for releasing file handles and resources.
+try:
+    io.close()
+    # h5_file is managed by NWBHDF5IO, but remfile should be closed if used directly
+    # However, h5_file here is the HDF5 file object opened on the remfile.
+    # Closing the io object should handle closing h5_file as well.
+    # remote_file.close() # If remfile was used to *download* or if h5_file was closed separately
+    # In this case, pynwb.NWBHDF5IO takes ownership of the h5py.File object.
+    # The h5py.File object holds a reference to the remfile.File object.
+    # Closing the NWBHDF5IO object should close the h5py.File object,
+    # which in turn should allow the remfile.File object to be garbage collected and closed.
+    # Explicitly:
+    if hasattr(h5_file, 'close') and callable(h5_file.close):
+         if h5_file.id.valid: # Check if file is open before trying to close
+            h5_file.close()
+    if hasattr(remote_file, 'close') and callable(remote_file.close):
+        remote_file.close()
+    print("NWB file, HDF5 file, and remote file handles closed (or prepared for garbage collection).")
+except Exception as e:
+    print(f"Error during cleanup: {e}")
+
+
+# %%
+print("Notebook execution completed.")
+================================
+Total prompt tokens: 47470 + 0
+Total completion tokens: 7890 + 0
+
+=========================================
+
+write_to_file for 'notebook.py':
+Successfully wrote 23054 characters to notebook.py
+=========================================
+
+Using model: google/gemini-2.5-pro-preview-03-25
+Num. messages in conversation: 10
+Submitting completion request...
+Processing response...
+I need to execute the command `jupytext --to notebook notebook.py && jupyter execute --inplace notebook.ipynb` to convert `notebook.py` to `notebook.ipynb` and then execute the `.ipynb` file. This is step 6 of the plan.
+The timeout is set to 600 seconds as requested.
+This command involves file conversion and execution, but is part of the core task and doesn't modify system-level configurations or install packages. It operates on files within the working directory.
+
+Tool: execute_command
+Params: {'command': 'jupytext --to notebook notebook.py &amp;&amp; jupyter execute --inplace notebook.ipynb', 'requires_approval': 'false', 'timeout': '600'}
+================================
+Command to be executed
+jupytext --to notebook notebook.py &amp;&amp; jupyter execute --inplace notebook.ipynb
+================================
+/bin/sh: 1: Syntax error: "&" unexpected
+Total prompt tokens: 70619 + 0
+Total completion tokens: 8103 + 0
+
+=========================================
+
+execute_command 'jupytext --to notebook notebook.py &amp;&amp; jupyter execute --inplace notebook.ipynb' (requires approval):
+Command failed with exit code 2
+STDERR:
+/bin/sh: 1: Syntax error: "&" unexpected
+
+=========================================
+
+Using model: google/gemini-2.5-pro-preview-03-25
+Num. messages in conversation: 12
+Submitting completion request...
+Processing response...
+The previous command `jupytext --to notebook notebook.py && jupyter execute --inplace notebook.ipynb` failed due to a syntax error with `&&`.
+I will split this into two separate commands.
+First command: `jupytext --to notebook notebook.py`
+This converts the Jupytext file to a Jupyter notebook.
+
+Tool: execute_command
+Params: {'command': 'jupytext --to notebook notebook.py', 'requires_approval': 'false', 'timeout': '600'}
+================================
+Command to be executed
+jupytext --to notebook notebook.py
+================================
+[jupytext] Reading notebook.py in format py
+[jupytext] Writing notebook.ipynb
+Total prompt tokens: 94087 + 0
+Total completion tokens: 8298 + 0
+
+=========================================
+
+execute_command 'jupytext --to notebook notebook.py' (requires approval):
+Command executed successfully
+STDOUT:
+[jupytext] Reading notebook.py in format py
+[jupytext] Writing notebook.ipynb
+
+=========================================
+
+Using model: google/gemini-2.5-pro-preview-03-25
+Num. messages in conversation: 14
+Submitting completion request...
+Processing response...
+The `jupytext` conversion was successful.
+Now I need to execute the `notebook.ipynb` file using the command: `jupyter execute --inplace notebook.ipynb`.
+This will run the notebook and save the outputs.
+
+Tool: execute_command
+Params: {'command': 'jupyter execute --inplace notebook.ipynb', 'requires_approval': 'false', 'timeout': '600'}
+================================
+Command to be executed
+jupyter execute --inplace notebook.ipynb
+================================
+[NbClientApp] Executing notebook.ipynb
+[NbClientApp] Executing notebook with kernel: 
+[NbClientApp] Save executed results to notebook.ipynb
+Total prompt tokens: 117852 + 0
+Total completion tokens: 8426 + 0
+
+=========================================
+
+execute_command 'jupyter execute --inplace notebook.ipynb' (requires approval):
+Command executed successfully
+STDERR:
+[NbClientApp] Executing notebook.ipynb
+[NbClientApp] Executing notebook with kernel: 
+[NbClientApp] Save executed results to notebook.ipynb
+
+=========================================
+
+Using model: google/gemini-2.5-pro-preview-03-25
+Num. messages in conversation: 16
+Submitting completion request...
+Processing response...
+The notebook was created, converted, and executed without errors. All steps outlined in the plan have been completed. I can now use `attempt_completion`.
+I have confirmed from the user (via successful command execution messages) that all previous tool uses were successful.
+
+Tool: attempt_completion
+Params: {'result': 'I have successfully created the Jupytext notebook `notebook.py`, converted it to `notebook.ipynb`, and executed it. The notebook provides an overview of Dandiset 001174, demonstrates how to load the Dandiset and one of its NWB files, and shows examples of visualizing imaging data, fluorescence traces, and ROI masks from the NWB file.', 'command': 'open notebook.ipynb'}
+I have successfully created the Jupytext notebook `notebook.py`, converted it to `notebook.ipynb`, and executed it. The notebook provides an overview of Dandiset 001174, demonstrates how to load the Dandiset and one of its NWB files, and shows examples of visualizing imaging data, fluorescence traces, and ROI masks from the NWB file.
+Total prompt tokens: 141862 + 0
+Total completion tokens: 8614 + 0
+
