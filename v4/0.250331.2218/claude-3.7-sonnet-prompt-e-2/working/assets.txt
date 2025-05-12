@@ -1,0 +1,107 @@
+{
+  "results": {
+    "count": 45,
+    "results": [
+      {
+        "asset_id": "193fee16-550e-4a8f-aab8-2383f6d57a03",
+        "path": "sub-F/sub-F_ses-20240213T110430_ophys.nwb",
+        "size": 12386608968
+      },
+      {
+        "asset_id": "1239b373-37af-4c03-b325-a6350dc9a36a",
+        "path": "sub-F/sub-F_ses-20240220T093333_ophys.nwb",
+        "size": 24783668760
+      },
+      {
+        "asset_id": "1f300be0-0277-4ea0-9397-477439a05675",
+        "path": "sub-F/sub-F_ses-20240223T092813_ophys.nwb",
+        "size": 24789419644
+      },
+      {
+        "asset_id": "29b28a2d-6526-4d4f-ab3f-92a4552f2762",
+        "path": "sub-F/sub-F_ses-20240227T101624_ophys.nwb",
+        "size": 24754162152
+      },
+      {
+        "asset_id": "7a05bcc2-e36d-4f65-82dd-fd23673625c2",
+        "path": "sub-F/sub-F_ses-20240229T104523_ophys.nwb",
+        "size": 24801436224
+      },
+      {
+        "asset_id": "e8683e44-4ae7-4810-94a8-7b0917b80ff4",
+        "path": "sub-F/sub-F_ses-20240305T093611_ophys.nwb",
+        "size": 24710199592
+      },
+      {
+        "asset_id": "17963d0d-362d-40a3-aa7f-645c719f3f4a",
+        "path": "sub-F/sub-F_ses-20240307T091711_ophys.nwb",
+        "size": 26086861880
+      },
+      {
+        "asset_id": "95c7a2aa-6800-46d4-96dc-32d40f8d93e5",
+        "path": "sub-F/sub-F_ses-20240312T101306_ophys.nwb",
+        "size": 12566835768
+      },
+      {
+        "asset_id": "57b628fc-52f1-48bb-8e68-06e5bd739844",
+        "path": "sub-F/sub-F_ses-20240319T102114_ophys.nwb",
+        "size": 12625446988
+      },
+      {
+        "asset_id": "de07db56-e7f3-4809-9972-755c51598e8d",
+        "path": "sub-Q/sub-Q_ophys.nwb",
+        "size": 790140856
+      },
+      {
+        "asset_id": "807851a7-ad52-4505-84ee-3b155a5bd2a3",
+        "path": "sub-Q/sub-Q_ses-20220915T133954_ophys.nwb",
+        "size": 1178268408
+      },
+      {
+        "asset_id": "ac161d0e-7642-48bd-9bef-8eff59319d48",
+        "path": "sub-Q/sub-Q_ses-20220922T131747_ophys.nwb",
+        "size": 787845832
+      },
+      {
+        "asset_id": "71e73980-5bd1-455b-a703-38c00ab46ebf",
+        "path": "sub-Q/sub-Q_ses-20220922T133032_ophys.nwb",
+        "size": 1571589152
+      },
+      {
+        "asset_id": "9c3678d5-22c3-402c-8cd4-6bc38c4d61e3",
+        "path": "sub-Q/sub-Q_ses-20221003T131952_ophys.nwb",
+        "size": 1695928224
+      },
+      {
+        "asset_id": "81b54b97-4e0e-4928-8ed7-f3b98e717e6f",
+        "path": "sub-Q/sub-Q_ses-20221003T134805_ophys.nwb",
+        "size": 1560482568
+      },
+      {
+        "asset_id": "b4e6bbf7-0564-4628-b8f0-680fd9b8d4ea",
+        "path": "sub-Q/sub-Q_ses-20221028T121142_ophys.nwb",
+        "size": 1557206224
+      },
+      {
+        "asset_id": "6b3248f0-2cf8-495d-8dbf-fba4ca693bd4",
+        "path": "sub-Q/sub-Q_ses-20221028T123313_ophys.nwb",
+        "size": 1117844728
+      },
+      {
+        "asset_id": "628c87ee-c3e1-44f3-b4b4-54aa67a0f6e4",
+        "path": "sub-Q/sub-Q_ses-20221201T132256_ophys.nwb",
+        "size": 1656990892
+      },
+      {
+        "asset_id": "d20fcefe-7d3c-48a4-bb90-8913e84b6bff",
+        "path": "sub-Q/sub-Q_ses-20221201T134628_ophys.nwb",
+        "size": 835445412
+      },
+      {
+        "asset_id": "35368f54-9bc6-4424-af61-99aa98201bdf",
+        "path": "sub-Q/sub-Q_ses-20221202T122907_ophys.nwb",
+        "size": 1568849832
+      }
+    ]
+  }
+}
